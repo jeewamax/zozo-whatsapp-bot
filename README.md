@@ -45,3 +45,14 @@ Queue එකේ pending customer message/number තාවකාලිකව ත�
 - [WhatsApp Business Messaging Policy](https://whatsappbusiness.com/policy/)
 
 Meta onboarding සහ live API compatibility තවම සජීවී ගිණුමක් සමඟ පරීක්ෂා කර නැත.
+
+
+## ZOZO AI upgrade — 4 November 2026
+
+Responses API using gpt-4.1-mini, server-only OPENAI_API_KEY. Model may be overridden by OPENAI_MODEL. The key configured for this deployment expires after 30 days and must be replaced before expiry.
+
+Catalog snapshot: user-approved Drive workbook 1zxzI2yfj631I7B3dOquJm5MmhdRy2d5z, dated 2026-11-04: 2,716 phone rows, 328 tablet rows, 171 laptop rows, consolidated into 2,679 exact variants. Each colour/configuration has separate prices; 324 variants have conflicting source amounts, shown with team confirmation required. Only LKR retail prices are included. This is a snapshot; editing Drive does not automatically update deployment. No stock or compatibility tests are implied by catalog entries. The old LKR280,000 offer is superseded.
+
+History: eight messages per customer, keyed HMAC identifier, maximum 24 hours; forget/delete my chat clears history. API requests use store=false. Usage safeguards: 30 assistant requests per customer per UTC day and 200 total per UTC day, at most two model calls per request. These request limits are not a dollar spending guarantee. Provider errors/expired keys return human contacts. No human inbox/notification integration.
+
+Privacy page updated for OpenAI processing and local history. All current technical specifications/compatibility must be verified separately. Full external warranty page contents not fetched; exact exclusions are referred to official page/team.

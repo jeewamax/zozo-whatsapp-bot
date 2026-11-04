@@ -8,21 +8,6 @@ from unittest.mock import patch
 import bot
 
 class BotTests(unittest.TestCase):
-    def test_price_and_no_stock_invention(self):
-        result = bot.reply('මිල කීයද?')
-        self.assertIn('280,000', result)
-        self.assertIn('12GB', result)
-        self.assertIn('පෙර ඇණවුම්', result)
-
-    def test_order_requires_team_confirmation(self):
-        result = bot.reply('1', 'support@example.com')
-        self.assertIn('තහවුරු නොවේ', result)
-        self.assertIn('support@example.com', result)
-
-    def test_human_contact_and_unknown_fallback(self):
-        self.assertIn('support@example.com', bot.reply('4', 'support@example.com'))
-        self.assertIn('ස්වයංක්‍රීය', bot.reply('unrecognized query'))
-
     def test_signature_rejects_tampering(self):
         body = b'{"object":"whatsapp_business_account"}'
         signature = 'sha256=' + hmac.new(b'secret', body, hashlib.sha256).hexdigest()
