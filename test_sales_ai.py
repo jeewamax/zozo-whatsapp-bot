@@ -2,6 +2,11 @@ import json,os,sqlite3,tempfile,time,unittest
 from unittest.mock import patch
 import sales_ai
 class SalesTests(unittest.TestCase):
+ def test_software_warranty_uses_approved_text(self):
+  with patch.object(sales_ai,'api') as api:
+   answer=sales_ai.answer('software warranty Android updates forever?', 'test','unused')
+   self.assertIn('does not guarantee lifetime',answer)
+   api.assert_not_called()
  def test_catalog_exact_variant_and_conflict(self):
   r=sales_ai.search_catalog('vivo x300 ultra 12+256','phone')
   self.assertEqual(r['total_matches'],3)
