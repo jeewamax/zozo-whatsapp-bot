@@ -1,5 +1,6 @@
 """Zozo Lanka Sinhala WhatsApp starter. Python 3.9+, standard library only."""
 import hashlib
+import html
 import hmac
 import json
 import os
@@ -15,6 +16,8 @@ from pathlib import Path
 ROOT = Path(__file__).resolve().parent
 PRODUCT = json.loads((ROOT / 'product.json').read_text(encoding='utf-8'))
 DB = os.environ.get('BOT_DB', str(ROOT / 'data' / 'messages.sqlite3'))
+
+PRIVACY_NOTICE = "# Zozo Lanka WhatsApp Assistant — Privacy Notice\n\nLast updated: 4 November 2026.\n\nThis notice describes the automated WhatsApp assistant operated for Zozo Lanka. It covers this assistant, rather than all Zozo Lanka websites, sales records or other services.\n\n## Information processed and why\n\nWhen you message the assistant, it processes your WhatsApp phone number, message content, message identifier and message timestamp to provide product information and respond to enquiries. WhatsApp may include additional account or profile metadata in the delivery payload. The assistant does not intentionally store that additional metadata in its message queue.\n\nThe current assistant uses a menu and keyword matching. It does not send conversation content to an external generative-AI model. Its replies do not confirm payment or acceptance of an order. Do not send card details, passwords or verification codes to the assistant.\n\n## Service providers\n\nMessages are transmitted through Meta's WhatsApp Business Platform. The assistant is hosted on Render, configured in its Singapore region. These providers process information according to their own services and privacy terms, and processing may involve countries outside Sri Lanka.\n\n## Temporary message storage\n\nThe assistant temporarily stores the sender number, message text, message identifier, timestamp and processing status in its server queue. The current software clears the sender number and message text after processing. Pending or interrupted messages can remain until processed or handled by an operator. Message identifiers and processing status are normally removed after seven days when the queue worker performs cleanup.\n\nThis describes the assistant's working queue. It does not mean that the same information has been deleted from WhatsApp, provider logs or backups, your own device, or any records kept separately by Zozo Lanka staff. Separate sales, warranty and support records are outside this notice's description of queue retention.\n\n## Access and safeguards\n\nThe assistant uses HTTPS for its public webhook, verifies Meta's webhook signature, and keeps API credentials outside the public source repository. Authorized administrators and the hosting and messaging providers may access information as needed to operate the service. No system can guarantee absolute security.\n\n## Questions, human support and deletion requests\n\nYou can stop using the assistant at any time. To request human assistance, ask about your information, or request deletion of information held by Zozo Lanka through this assistant, contact:\n\n- Main WhatsApp / phone: **+94 77 297 7471**\n- Additional phone: **+94 74 264 9856**\n\nIdentify the number you used to contact the assistant and describe your request. Zozo Lanka may need to verify that the request comes from you. Requests affecting Meta or other providers' own records must also be made through those providers' applicable channels.\n\n## Changes\n\nThis notice should be updated when the assistant's features, providers or data handling change. The published notice should show its most recent update date.\n"
 
 def reply(text, support=None):
     support = support or os.environ.get('SUPPORT_CONTACT', '[Zozo Lanka සහාය අංකය සැකසිය යුතුය]')
@@ -105,9 +108,9 @@ class Handler(BaseHTTPRequestHandler):
     def log_message(self, *args):
         pass  # Verification tokens and customer details must not enter access logs.
 
-    def respond(self, code, body):
+    def respond(self, code, body, content_type="text/plain; charset=utf-8"):
         self.send_response(code)
-        self.send_header('Content-Type', 'text/plain; charset=utf-8')
+        self.send_header('Content-Type', content_type)
         self.end_headers()
         self.wfile.write(body.encode())
 
@@ -115,6 +118,13 @@ class Handler(BaseHTTPRequestHandler):
         url = urllib.parse.urlparse(self.path)
         if url.path == '/health':
             return self.respond(200, 'ok')
+        if url.path in ('/privacy', '/data-deletion'):
+            page = ('<!doctype html><html lang="en"><meta charset="utf-8">'
+                    '<meta name="viewport" content="width=device-width, initial-scale=1">'
+                    '<title>Zozo Lanka WhatsApp Privacy Notice</title>'
+                    '<main style="max-width:760px;margin:40px auto;padding:20px;font:17px/1.7 system-ui">'
+                    '<pre style="white-space:pre-wrap;font:inherit">' + html.escape(PRIVACY_NOTICE) + '</pre></main></html>')
+            return self.respond(200, page, 'text/html; charset=utf-8')
         q = urllib.parse.parse_qs(url.query)
         if url.path == '/webhook' and q.get('hub.mode') == ['subscribe'] and hmac.compare_digest(q.get('hub.verify_token', [''])[0], os.environ['WHATSAPP_VERIFY_TOKEN']):
             return self.respond(200, q.get('hub.challenge', [''])[0])
