@@ -1,0 +1,6 @@
+.env
+.env.*
+data/
+__pycache__/
+*.sqlite3*
+test_bot.py
