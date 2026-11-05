@@ -7,6 +7,29 @@ class SalesTests(unittest.TestCase):
    answer=sales_ai.answer('software warranty Android updates forever?', 'test','unused')
    self.assertIn('does not guarantee lifetime',answer)
    api.assert_not_called()
+ def test_china_spec_regression_and_business_terms(self):
+  data=sales_ai.get_chinese_specs('OPPO Find X10')
+  self.assertTrue(data['verified'])
+  self.assertEqual(data['model_code'],'PMW110')
+  self.assertIn('8000 mAh',data['facts'])
+  self.assertNotIn('4500',data['facts'])
+  catalog=sales_ai.search_catalog('oppo find x10','phone')
+  self.assertEqual(catalog['market'],'China')
+  self.assertEqual(catalog['sale_type'],'preorder')
+  self.assertEqual(catalog['delivery_days_to_sri_lanka'],15)
+ def test_unsupported_battery_claim_is_not_sent(self):
+  response={'output':[{'type':'message','content':[{'type':'output_text','text':'OPPO Find X10 battery 4500mAh'}]}]}
+  with tempfile.TemporaryDirectory() as d,patch.dict(os.environ,{'WHATSAPP_VERIFY_TOKEN':'test'}),patch.object(sales_ai,'api',return_value=response):
+   result=sales_ai.answer('Find X10 battery?','customer',d+'/test.db')
+   self.assertNotIn('4500',result)
+   self.assertIn('verification',result)
+ def test_catalog_then_spec_tool_sequence(self):
+  tool=lambda name,args,cid:{'type':'function_call','name':name,'arguments':json.dumps(args),'call_id':cid}
+  results=[{'output':[tool('search_catalog',{'query':'oppo find x10','category':'phone','max_lkr':0},'cat')]},{'output':[tool('get_chinese_specs',{'model':'OPPO Find X10'},'spec')]},{'output':[{'type':'message','content':[{'type':'output_text','text':'Chinese OPPO Find X10: battery 8000mAh. Preorder, 15 days.'}]}]}]
+  with tempfile.TemporaryDirectory() as d,patch.dict(os.environ,{'WHATSAPP_VERIFY_TOKEN':'test'}),patch.object(sales_ai,'api',side_effect=results):
+   result=sales_ai.answer('Find X10 battery?','customer',d+'/test.db')
+   self.assertIn('8000mAh',result)
+   self.assertIn('oppo.com/cn/',result)
  def test_catalog_exact_variant_and_conflict(self):
   r=sales_ai.search_catalog('vivo x300 ultra 12+256','phone')
   self.assertEqual(r['total_matches'],3)
