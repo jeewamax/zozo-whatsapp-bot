@@ -30,6 +30,18 @@ class SalesTests(unittest.TestCase):
    result=sales_ai.answer('Find X10 battery?','customer',d+'/test.db')
    self.assertIn('8000mAh',result)
    self.assertIn('oppo.com/cn/',result)
+ def test_base_model_search_excludes_pro_and_normalizes_gb(self):
+  data=sales_ai.search_catalog('OPPO Find X10 12GB 256GB','phone')
+  self.assertGreater(data['total_matches'],0)
+  self.assertTrue(all('pro' not in p['model'].lower() for p in data['variants']))
+ def test_price_table_uses_exact_catalog_rows(self):
+  call={'type':'function_call','name':'search_catalog','arguments':json.dumps({'query':'vivo x300 ultra 12gb 256gb','category':'phone','max_lkr':0}),'call_id':'p'}
+  results=[{'output':[call]},{'output':[{'type':'message','content':[{'type':'output_text','text':'Choose a colour.'}]}]}]
+  with tempfile.TemporaryDirectory() as d,patch.dict(os.environ,{'WHATSAPP_VERIFY_TOKEN':'test'}),patch.object(sales_ai,'api',side_effect=results):
+   result=sales_ai.answer('price','customer',d+'/test.db')
+   self.assertIn('Silver Tone | LKR 379,000',result)
+   self.assertIn('Film Green | LKR 383,000',result)
+   self.assertIn('delivery: 15 days',result)
  def test_catalog_exact_variant_and_conflict(self):
   r=sales_ai.search_catalog('vivo x300 ultra 12+256','phone')
   self.assertEqual(r['total_matches'],3)
