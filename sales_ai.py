@@ -37,6 +37,13 @@ def get_chinese_specs(model):
  canonical=re.sub(r'[^a-z0-9]','',model.lower())
  if canonical in ('oppofindx10','findx10'):
   return {'verified':True,'model':'OPPO Find X10','market':'China','model_code':'PMW110','facts':'Battery: 8000 mAh typical, 7770 mAh rated. Wired charging: up to 80 W. Wireless charging: up to 50 W. Chipset: MediaTek Dimensity 9600M. Display: 6.59 inches, 2768x1272, 1-120Hz with up to 144Hz in selected game scenarios. OS: ColorOS 17.0. These are China PMW110 hardware specifications, not Sri Lankan app/network compatibility test results.','sources':['https://www.oppo.com/cn/smartphones/series-find-x/find-x10/specs/'],'checked':'2026-11-05'}
+ reviewed={
+  'oppofindx9pro':{'model':'OPPO Find X9 Pro','model_code':'PLG110','facts':'China model PLG110. Battery: 7500 mAh typical, 7290 mAh rated. Charging: up to 80 W wired, up to 50 W wireless. Chipset: MediaTek Dimensity 9500. Display: 6.78 inches, 2772x1272. Unlisted specifications and Sri Lankan app/network compatibility are not verified.','sources':['https://www.oppo.com/cn/smartphones/series-find-x/find-x9-pro/specs/']},
+  'vivox300ultra':{'model':'vivo X300 Ultra','model_code':'V2547A / V2547DA (configuration-specific)','facts':'Chinese versions V2547A/V2547DA; satellite features depend on configuration. Battery: 6600 mAh typical, 6395 mAh rated. Charging: 100 W wired, 40 W wireless. Chipset: Snapdragon 8 Elite Gen 5; GPU Adreno 840. RAM: 12GB or 16GB; storage configurations 256GB, 512GB, 1TB; use seller catalog for selling configurations/prices. Other unlisted specifications and Sri Lankan app/network compatibility are not verified.','sources':['https://www.vivo.com.cn/vivo/param/x300ultra']}
+ }
+ aliases={'findx9pro':'oppofindx9pro','x300ultra':'vivox300ultra'}
+ record=reviewed.get(aliases.get(canonical,canonical))
+ if record:return dict(record,verified=True,market='China',checked='2026-11-05')
  cached=SPEC_CACHE.get(canonical)
  if cached and time.time()-cached[0]<86400:return cached[1]
  # The researcher receives only a bounded model name, never customer history or routing number.
@@ -51,7 +58,7 @@ def get_chinese_specs(model):
   urls=[a['url'] for c in texts for a in c.get('annotations',[]) if a.get('type')=='url_citation']
   urls=[url for url in urls if any(urllib.parse.urlparse(url).hostname==d or (urllib.parse.urlparse(url).hostname or '').endswith('.'+d) for d in SPEC_DOMAINS)]
   if not urls or 'UNVERIFIED' in facts.upper():return {'verified':False,'reason':'Exact Chinese variant not verified.'}
-  data={'verified':True,'model':model,'market':'China','facts':facts,'sources':list(dict.fromkeys(urls))[:3]}
+  data={'verified':False,'model':model,'market':'China','reason':'Source research requires exact Chinese-model review before specifications may be quoted. Ask the sales team to verify.','research_sources':list(dict.fromkeys(urls))[:3]}
   SPEC_CACHE[canonical]=(time.time(),data)
   return data
  except Exception:return {'verified':False,'reason':'Specification lookup unavailable; ask team to confirm exact Chinese model.'}
@@ -62,6 +69,13 @@ def api(items,tools=True):
  payload={'model':os.environ.get('OPENAI_MODEL','gpt-4.1-mini'),'instructions':PROMPT,'input':items,'store':False,'max_output_tokens':1000}
  if tools:payload['tools']=[TOOL,SPEC_TOOL];payload['parallel_tool_calls']=False
  return request_api(payload)
+
+def technical_question(text):
+ return bool(re.search(r'(?i)battery|mah|camera|processor|chipset|display|charging|screen|specification|\bspecs?\b|snapdragon|dimensity|refresh|watt|waterproof|ip68|ip69|බැටරි|කැමරා|ප්‍රොසෙසර්|චිප්|තිරය|චාජ්|ස්පෙක්',text))
+def pending_specs(text):
+ if re.search('[\u0d80-\u0dff]',text):
+  return 'මෙම exact Chinese-version model එකේ තාක්ෂණික විස්තර තවම තහවුරු කර නැහැ. Battery, camera, chipset වැනි විස්තර අනුමාන කර නොදෙමි. Model code/නිල specs තහවුරු කිරීමට අපගේ කණ්ඩායම අමතන්න: '+CONTACTS
+ return 'The exact Chinese-version specifications have not yet been verified. I will not guess battery, camera, chipset or other specifications. Please confirm the exact model code/specifications with our team: '+CONTACTS
 
 def fallback(text):
  if re.search('[\u0d80-\u0dff]',text):return 'දැනට AI පිළිතුර ලබාදිය නොහැකියි. නවතම මිල සහ විස්තර සඳහා අපගේ කණ්ඩායම අමතන්න: '+CONTACTS
@@ -112,10 +126,13 @@ def answer(text,recipient,db_path):
     else:raise ValueError('Unexpected tool')
     items.append({'type':'function_call_output','call_id':call['call_id'],'output':json.dumps(data,ensure_ascii=False)})
   output='\n'.join(c['text'] for o in result.get('output',[]) if o.get('type')=='message' for c in o.get('content',[]) if c.get('type')=='output_text').strip()
+  # All technical enquiries need a reviewed exact-China record, including nonnumeric chip/model claims.
+  if (technical_question(text) or technical_question(output) or spec_lookups) and not spec_evidence:
+   output=pending_specs(text)
   # Numeric technical claims must exist in retrieved evidence, not model memory.
   claims=re.findall(r'(\d[\d,.]*)\s*(mAh|Wh|GHz|MHz|Hz|MP|W|nits|nm)\b',output,re.I)
-  evidence_numbers={v.replace(",","") for v in re.findall(r'\d[\d,.]*', ' '.join(spec_evidence))}
-  if any(v.replace(",","") not in evidence_numbers for v,u in claims):
+  evidence_pairs={(v.replace(",",""),u.lower()) for v,u in re.findall(r'(\d[\d,.]*)\s*(mAh|Wh|GHz|MHz|Hz|MP|W|nits|nm)\b',' '.join(spec_evidence),re.I)}
+  if any((v.replace(",",""),u.lower()) not in evidence_pairs for v,u in claims):
    output=('Exact Chinese-version specifications need verification. Please share the exact model; our team can confirm: '+CONTACTS)
   config=re.search(r'\b(\d+)\s*(?:gb|g)\s*[+/ ]*\s*(\d+)\s*(tb|gb|g)\b',text,re.I)
   if config:

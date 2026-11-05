@@ -1,0 +1,3168 @@
+{
+  "warning": "Seller model names are catalog labels, not independent proof of device launch/specification. Model grouping is preliminary; aliases require review.",
+  "catalog_date": "2026-11-04",
+  "models": [
+    {
+      "brand": "Apple",
+      "seller_model_name": "Apple iPhone 16",
+      "market": "China",
+      "variant_count": 7,
+      "spec_status": "needs_exact_china_source_verification",
+      "source_url": null
+    },
+    {
+      "brand": "Apple",
+      "seller_model_name": "Apple iPhone 16 Plus",
+      "market": "China",
+      "variant_count": 6,
+      "spec_status": "needs_exact_china_source_verification",
+      "source_url": null
+    },
+    {
+      "brand": "Apple",
+      "seller_model_name": "Apple iPhone 16 Pro",
+      "market": "China",
+      "variant_count": 11,
+      "spec_status": "needs_exact_china_source_verification",
+      "source_url": null
+    },
+    {
+      "brand": "Apple",
+      "seller_model_name": "Apple iPhone 16 Pro Max",
+      "market": "China",
+      "variant_count": 5,
+      "spec_status": "needs_exact_china_source_verification",
+      "source_url": null
+    },
+    {
+      "brand": "Apple",
+      "seller_model_name": "Apple iPhone 17",
+      "market": "China",
+      "variant_count": 6,
+      "spec_status": "needs_exact_china_source_verification",
+      "source_url": null
+    },
+    {
+      "brand": "Apple",
+      "seller_model_name": "Apple iPhone 17 Air",
+      "market": "China",
+      "variant_count": 4,
+      "spec_status": "needs_exact_china_source_verification",
+      "source_url": null
+    },
+    {
+      "brand": "Apple",
+      "seller_model_name": "Apple iPhone 17 Pro",
+      "market": "China",
+      "variant_count": 6,
+      "spec_status": "needs_exact_china_source_verification",
+      "source_url": null
+    },
+    {
+      "brand": "Apple",
+      "seller_model_name": "Apple iPhone 17 Pro Max",
+      "market": "China",
+      "variant_count": 10,
+      "spec_status": "needs_exact_china_source_verification",
+      "source_url": null
+    },
+    {
+      "brand": "Apple",
+      "seller_model_name": "Apple iPhone 18 Pro",
+      "market": "China",
+      "variant_count": 13,
+      "spec_status": "needs_exact_china_source_verification",
+      "source_url": null
+    },
+    {
+      "brand": "Apple",
+      "seller_model_name": "Apple iPhone 18 Pro Max",
+      "market": "China",
+      "variant_count": 15,
+      "spec_status": "needs_exact_china_source_verification",
+      "source_url": null
+    },
+    {
+      "brand": "Apple",
+      "seller_model_name": "Apple iPhone Duo",
+      "market": "China",
+      "variant_count": 8,
+      "spec_status": "needs_exact_china_source_verification",
+      "source_url": null
+    },
+    {
+      "brand": "Coolpad",
+      "seller_model_name": "Coolpad X10",
+      "market": "China",
+      "variant_count": 3,
+      "spec_status": "needs_exact_china_source_verification",
+      "source_url": null
+    },
+    {
+      "brand": "Coolpad",
+      "seller_model_name": "Coolpad X9",
+      "market": "China",
+      "variant_count": 2,
+      "spec_status": "needs_exact_china_source_verification",
+      "source_url": null
+    },
+    {
+      "brand": "Duoqin (Xiaomi)",
+      "seller_model_name": "Xiaomi Duoqin Qin F21 Pro",
+      "market": "China",
+      "variant_count": 2,
+      "spec_status": "needs_exact_china_source_verification",
+      "source_url": null
+    },
+    {
+      "brand": "Duoqin (Xiaomi)",
+      "seller_model_name": "Xiaomi Duoqin Qin F22",
+      "market": "China",
+      "variant_count": 4,
+      "spec_status": "needs_exact_china_source_verification",
+      "source_url": null
+    },
+    {
+      "brand": "Duoqin (Xiaomi)",
+      "seller_model_name": "Xiaomi Duoqin Qin F22 Pro",
+      "market": "China",
+      "variant_count": 2,
+      "spec_status": "needs_exact_china_source_verification",
+      "source_url": null
+    },
+    {
+      "brand": "Duoqin (Xiaomi)",
+      "seller_model_name": "Xiaomi Duoqin Qin F25",
+      "market": "China",
+      "variant_count": 2,
+      "spec_status": "needs_exact_china_source_verification",
+      "source_url": null
+    },
+    {
+      "brand": "Honor",
+      "seller_model_name": "Honor 200",
+      "market": "China",
+      "variant_count": 6,
+      "spec_status": "needs_exact_china_source_verification",
+      "source_url": null
+    },
+    {
+      "brand": "Honor",
+      "seller_model_name": "Honor 500",
+      "market": "China",
+      "variant_count": 9,
+      "spec_status": "needs_exact_china_source_verification",
+      "source_url": null
+    },
+    {
+      "brand": "Honor",
+      "seller_model_name": "Honor 500 Pro",
+      "market": "China",
+      "variant_count": 8,
+      "spec_status": "needs_exact_china_source_verification",
+      "source_url": null
+    },
+    {
+      "brand": "Honor",
+      "seller_model_name": "Honor 500 Refresh Edition",
+      "market": "China",
+      "variant_count": 12,
+      "spec_status": "needs_exact_china_source_verification",
+      "source_url": null
+    },
+    {
+      "brand": "Honor",
+      "seller_model_name": "Honor 600",
+      "market": "China",
+      "variant_count": 17,
+      "spec_status": "needs_exact_china_source_verification",
+      "source_url": null
+    },
+    {
+      "brand": "Honor",
+      "seller_model_name": "Honor 600 Pro",
+      "market": "China",
+      "variant_count": 8,
+      "spec_status": "needs_exact_china_source_verification",
+      "source_url": null
+    },
+    {
+      "brand": "Honor",
+      "seller_model_name": "Honor Magic V Flip2",
+      "market": "China",
+      "variant_count": 3,
+      "spec_status": "needs_exact_china_source_verification",
+      "source_url": null
+    },
+    {
+      "brand": "Honor",
+      "seller_model_name": "Honor Magic V5",
+      "market": "China",
+      "variant_count": 3,
+      "spec_status": "needs_exact_china_source_verification",
+      "source_url": null
+    },
+    {
+      "brand": "Honor",
+      "seller_model_name": "Honor Magic V6",
+      "market": "China",
+      "variant_count": 8,
+      "spec_status": "needs_exact_china_source_verification",
+      "source_url": null
+    },
+    {
+      "brand": "Honor",
+      "seller_model_name": "Honor Magic8",
+      "market": "China",
+      "variant_count": 2,
+      "spec_status": "needs_exact_china_source_verification",
+      "source_url": null
+    },
+    {
+      "brand": "Honor",
+      "seller_model_name": "Honor Magic8 PRO",
+      "market": "China",
+      "variant_count": 1,
+      "spec_status": "needs_exact_china_source_verification",
+      "source_url": null
+    },
+    {
+      "brand": "Honor",
+      "seller_model_name": "Honor Magic8 PRO AI Edition",
+      "market": "China",
+      "variant_count": 2,
+      "spec_status": "needs_exact_china_source_verification",
+      "source_url": null
+    },
+    {
+      "brand": "Honor",
+      "seller_model_name": "Honor Magic8 PRO Air",
+      "market": "China",
+      "variant_count": 8,
+      "spec_status": "needs_exact_china_source_verification",
+      "source_url": null
+    },
+    {
+      "brand": "Honor",
+      "seller_model_name": "Honor Magic8 RSR Porsche Design",
+      "market": "China",
+      "variant_count": 2,
+      "spec_status": "needs_exact_china_source_verification",
+      "source_url": null
+    },
+    {
+      "brand": "Honor",
+      "seller_model_name": "Honor Magic9",
+      "market": "China",
+      "variant_count": 16,
+      "spec_status": "needs_exact_china_source_verification",
+      "source_url": null
+    },
+    {
+      "brand": "Honor",
+      "seller_model_name": "Honor Magic9 Pro Max",
+      "market": "China",
+      "variant_count": 5,
+      "spec_status": "needs_exact_china_source_verification",
+      "source_url": null
+    },
+    {
+      "brand": "Honor",
+      "seller_model_name": "Honor Magic9 Super Edition",
+      "market": "China",
+      "variant_count": 12,
+      "spec_status": "needs_exact_china_source_verification",
+      "source_url": null
+    },
+    {
+      "brand": "Honor",
+      "seller_model_name": "Honor Play 60",
+      "market": "China",
+      "variant_count": 3,
+      "spec_status": "needs_exact_china_source_verification",
+      "source_url": null
+    },
+    {
+      "brand": "Honor",
+      "seller_model_name": "Honor Play 60A",
+      "market": "China",
+      "variant_count": 6,
+      "spec_status": "needs_exact_china_source_verification",
+      "source_url": null
+    },
+    {
+      "brand": "Honor",
+      "seller_model_name": "Honor Play 60A AI Edition",
+      "market": "China",
+      "variant_count": 3,
+      "spec_status": "needs_exact_china_source_verification",
+      "source_url": null
+    },
+    {
+      "brand": "Honor",
+      "seller_model_name": "Honor Play 60M",
+      "market": "China",
+      "variant_count": 6,
+      "spec_status": "needs_exact_china_source_verification",
+      "source_url": null
+    },
+    {
+      "brand": "Honor",
+      "seller_model_name": "Honor Play 70 Plus",
+      "market": "China",
+      "variant_count": 7,
+      "spec_status": "needs_exact_china_source_verification",
+      "source_url": null
+    },
+    {
+      "brand": "Honor",
+      "seller_model_name": "Honor Play 70C All-Network C 4G",
+      "market": "China",
+      "variant_count": 6,
+      "spec_status": "needs_exact_china_source_verification",
+      "source_url": null
+    },
+    {
+      "brand": "Honor",
+      "seller_model_name": "Honor Play 70C All-Network D 4G",
+      "market": "China",
+      "variant_count": 2,
+      "spec_status": "needs_exact_china_source_verification",
+      "source_url": null
+    },
+    {
+      "brand": "Honor",
+      "seller_model_name": "Honor Play 70M Plus",
+      "market": "China",
+      "variant_count": 4,
+      "spec_status": "needs_exact_china_source_verification",
+      "source_url": null
+    },
+    {
+      "brand": "Honor",
+      "seller_model_name": "Honor Play 80 All-Network C",
+      "market": "China",
+      "variant_count": 3,
+      "spec_status": "needs_exact_china_source_verification",
+      "source_url": null
+    },
+    {
+      "brand": "Honor",
+      "seller_model_name": "Honor Play 80 All-Network C AI Edition",
+      "market": "China",
+      "variant_count": 1,
+      "spec_status": "needs_exact_china_source_verification",
+      "source_url": null
+    },
+    {
+      "brand": "Honor",
+      "seller_model_name": "Honor Play 80 All-Network D",
+      "market": "China",
+      "variant_count": 6,
+      "spec_status": "needs_exact_china_source_verification",
+      "source_url": null
+    },
+    {
+      "brand": "Honor",
+      "seller_model_name": "Honor Play 80 All-Network D AI Edition",
+      "market": "China",
+      "variant_count": 3,
+      "spec_status": "needs_exact_china_source_verification",
+      "source_url": null
+    },
+    {
+      "brand": "Honor",
+      "seller_model_name": "Honor Play 80 All-Network E",
+      "market": "China",
+      "variant_count": 3,
+      "spec_status": "needs_exact_china_source_verification",
+      "source_url": null
+    },
+    {
+      "brand": "Honor",
+      "seller_model_name": "Honor Play 80 All-Network E AI Edition",
+      "market": "China",
+      "variant_count": 3,
+      "spec_status": "needs_exact_china_source_verification",
+      "source_url": null
+    },
+    {
+      "brand": "Honor",
+      "seller_model_name": "Honor Play 80 Plus All-Network D",
+      "market": "China",
+      "variant_count": 3,
+      "spec_status": "needs_exact_china_source_verification",
+      "source_url": null
+    },
+    {
+      "brand": "Honor",
+      "seller_model_name": "Honor Play 80 Plus All-Network D Star Edition",
+      "market": "China",
+      "variant_count": 3,
+      "spec_status": "needs_exact_china_source_verification",
+      "source_url": null
+    },
+    {
+      "brand": "Honor",
+      "seller_model_name": "Honor Play 80 Plus All-Network E",
+      "market": "China",
+      "variant_count": 6,
+      "spec_status": "needs_exact_china_source_verification",
+      "source_url": null
+    },
+    {
+      "brand": "Honor",
+      "seller_model_name": "Honor Play 80 Plus All-Network E AI Edition",
+      "market": "China",
+      "variant_count": 2,
+      "spec_status": "needs_exact_china_source_verification",
+      "source_url": null
+    },
+    {
+      "brand": "Honor",
+      "seller_model_name": "Honor Play 80 Plus All-Network E Star Edition",
+      "market": "China",
+      "variant_count": 3,
+      "spec_status": "needs_exact_china_source_verification",
+      "source_url": null
+    },
+    {
+      "brand": "Honor",
+      "seller_model_name": "Honor Play 80 Pro",
+      "market": "China",
+      "variant_count": 9,
+      "spec_status": "needs_exact_china_source_verification",
+      "source_url": null
+    },
+    {
+      "brand": "Honor",
+      "seller_model_name": "Honor Play 80M All-Network C",
+      "market": "China",
+      "variant_count": 1,
+      "spec_status": "needs_exact_china_source_verification",
+      "source_url": null
+    },
+    {
+      "brand": "Honor",
+      "seller_model_name": "Honor Play 80M All-Network C AI Edition",
+      "market": "China",
+      "variant_count": 2,
+      "spec_status": "needs_exact_china_source_verification",
+      "source_url": null
+    },
+    {
+      "brand": "Honor",
+      "seller_model_name": "Honor Power",
+      "market": "China",
+      "variant_count": 3,
+      "spec_status": "needs_exact_china_source_verification",
+      "source_url": null
+    },
+    {
+      "brand": "Honor",
+      "seller_model_name": "Honor Power2",
+      "market": "China",
+      "variant_count": 6,
+      "spec_status": "needs_exact_china_source_verification",
+      "source_url": null
+    },
+    {
+      "brand": "Honor",
+      "seller_model_name": "Honor Robot Phone",
+      "market": "China",
+      "variant_count": 4,
+      "spec_status": "needs_exact_china_source_verification",
+      "source_url": null
+    },
+    {
+      "brand": "Honor",
+      "seller_model_name": "Honor WIN",
+      "market": "China",
+      "variant_count": 11,
+      "spec_status": "needs_exact_china_source_verification",
+      "source_url": null
+    },
+    {
+      "brand": "Honor",
+      "seller_model_name": "Honor WIN RT",
+      "market": "China",
+      "variant_count": 5,
+      "spec_status": "needs_exact_china_source_verification",
+      "source_url": null
+    },
+    {
+      "brand": "Honor",
+      "seller_model_name": "Honor WIN RT2",
+      "market": "China",
+      "variant_count": 11,
+      "spec_status": "needs_exact_china_source_verification",
+      "source_url": null
+    },
+    {
+      "brand": "Honor",
+      "seller_model_name": "Honor WIN Turbo",
+      "market": "China",
+      "variant_count": 8,
+      "spec_status": "needs_exact_china_source_verification",
+      "source_url": null
+    },
+    {
+      "brand": "Honor",
+      "seller_model_name": "Honor WIN Turbo2",
+      "market": "China",
+      "variant_count": 6,
+      "spec_status": "needs_exact_china_source_verification",
+      "source_url": null
+    },
+    {
+      "brand": "Honor",
+      "seller_model_name": "Honor WIN2",
+      "market": "China",
+      "variant_count": 12,
+      "spec_status": "needs_exact_china_source_verification",
+      "source_url": null
+    },
+    {
+      "brand": "Honor",
+      "seller_model_name": "Honor X60",
+      "market": "China",
+      "variant_count": 2,
+      "spec_status": "needs_exact_china_source_verification",
+      "source_url": null
+    },
+    {
+      "brand": "Honor",
+      "seller_model_name": "Honor X60 GT",
+      "market": "China",
+      "variant_count": 3,
+      "spec_status": "needs_exact_china_source_verification",
+      "source_url": null
+    },
+    {
+      "brand": "Honor",
+      "seller_model_name": "Honor X70",
+      "market": "China",
+      "variant_count": 12,
+      "spec_status": "needs_exact_china_source_verification",
+      "source_url": null
+    },
+    {
+      "brand": "Honor",
+      "seller_model_name": "Honor X70 Pro Max",
+      "market": "China",
+      "variant_count": 8,
+      "spec_status": "needs_exact_china_source_verification",
+      "source_url": null
+    },
+    {
+      "brand": "Honor",
+      "seller_model_name": "Honor X70 Refresh Edition",
+      "market": "China",
+      "variant_count": 17,
+      "spec_status": "needs_exact_china_source_verification",
+      "source_url": null
+    },
+    {
+      "brand": "Honor",
+      "seller_model_name": "Honor X70i",
+      "market": "China",
+      "variant_count": 4,
+      "spec_status": "needs_exact_china_source_verification",
+      "source_url": null
+    },
+    {
+      "brand": "Honor",
+      "seller_model_name": "Honor X70i AI Edition",
+      "market": "China",
+      "variant_count": 2,
+      "spec_status": "needs_exact_china_source_verification",
+      "source_url": null
+    },
+    {
+      "brand": "Honor",
+      "seller_model_name": "Honor X80i",
+      "market": "China",
+      "variant_count": 10,
+      "spec_status": "needs_exact_china_source_verification",
+      "source_url": null
+    },
+    {
+      "brand": "Honor",
+      "seller_model_name": "Honor X80pro MAX",
+      "market": "China",
+      "variant_count": 16,
+      "spec_status": "needs_exact_china_source_verification",
+      "source_url": null
+    },
+    {
+      "brand": "Honor",
+      "seller_model_name": "Honor play10",
+      "market": "China",
+      "variant_count": 5,
+      "spec_status": "needs_exact_china_source_verification",
+      "source_url": null
+    },
+    {
+      "brand": "Honor",
+      "seller_model_name": "Honor play10A",
+      "market": "China",
+      "variant_count": 6,
+      "spec_status": "needs_exact_china_source_verification",
+      "source_url": null
+    },
+    {
+      "brand": "Honor",
+      "seller_model_name": "Honor play10C",
+      "market": "China",
+      "variant_count": 10,
+      "spec_status": "needs_exact_china_source_verification",
+      "source_url": null
+    },
+    {
+      "brand": "Honor",
+      "seller_model_name": "Honor play10T",
+      "market": "China",
+      "variant_count": 9,
+      "spec_status": "needs_exact_china_source_verification",
+      "source_url": null
+    },
+    {
+      "brand": "Honor",
+      "seller_model_name": "Honor play11 plus",
+      "market": "China",
+      "variant_count": 2,
+      "spec_status": "needs_exact_china_source_verification",
+      "source_url": null
+    },
+    {
+      "brand": "Honor",
+      "seller_model_name": "Honor play11C All-Network C",
+      "market": "China",
+      "variant_count": 3,
+      "spec_status": "needs_exact_china_source_verification",
+      "source_url": null
+    },
+    {
+      "brand": "Honor",
+      "seller_model_name": "Honor play11C All-Network D",
+      "market": "China",
+      "variant_count": 2,
+      "spec_status": "needs_exact_china_source_verification",
+      "source_url": null
+    },
+    {
+      "brand": "Huawei",
+      "seller_model_name": "Huawei Enjoy 100",
+      "market": "China",
+      "variant_count": 6,
+      "spec_status": "needs_exact_china_source_verification",
+      "source_url": null
+    },
+    {
+      "brand": "Huawei",
+      "seller_model_name": "Huawei Enjoy 100 Pro",
+      "market": "China",
+      "variant_count": 8,
+      "spec_status": "needs_exact_china_source_verification",
+      "source_url": null
+    },
+    {
+      "brand": "Huawei",
+      "seller_model_name": "Huawei Enjoy 100 Pro Max",
+      "market": "China",
+      "variant_count": 8,
+      "spec_status": "needs_exact_china_source_verification",
+      "source_url": null
+    },
+    {
+      "brand": "Huawei",
+      "seller_model_name": "Huawei Enjoy 100m",
+      "market": "China",
+      "variant_count": 2,
+      "spec_status": "needs_exact_china_source_verification",
+      "source_url": null
+    },
+    {
+      "brand": "Huawei",
+      "seller_model_name": "Huawei Enjoy 70X",
+      "market": "China",
+      "variant_count": 3,
+      "spec_status": "needs_exact_china_source_verification",
+      "source_url": null
+    },
+    {
+      "brand": "Huawei",
+      "seller_model_name": "Huawei Enjoy 70X Premium Edition",
+      "market": "China",
+      "variant_count": 6,
+      "spec_status": "needs_exact_china_source_verification",
+      "source_url": null
+    },
+    {
+      "brand": "Huawei",
+      "seller_model_name": "Huawei Enjoy 70X Vitality Edition",
+      "market": "China",
+      "variant_count": 4,
+      "spec_status": "needs_exact_china_source_verification",
+      "source_url": null
+    },
+    {
+      "brand": "Huawei",
+      "seller_model_name": "Huawei Enjoy 80 4G",
+      "market": "China",
+      "variant_count": 4,
+      "spec_status": "needs_exact_china_source_verification",
+      "source_url": null
+    },
+    {
+      "brand": "Huawei",
+      "seller_model_name": "Huawei Enjoy 90",
+      "market": "China",
+      "variant_count": 3,
+      "spec_status": "needs_exact_china_source_verification",
+      "source_url": null
+    },
+    {
+      "brand": "Huawei",
+      "seller_model_name": "Huawei Enjoy 90 PLUS",
+      "market": "China",
+      "variant_count": 5,
+      "spec_status": "needs_exact_china_source_verification",
+      "source_url": null
+    },
+    {
+      "brand": "Huawei",
+      "seller_model_name": "Huawei Enjoy 90 Pro Max",
+      "market": "China",
+      "variant_count": 11,
+      "spec_status": "needs_exact_china_source_verification",
+      "source_url": null
+    },
+    {
+      "brand": "Huawei",
+      "seller_model_name": "Huawei Enjoy 90M PLUS",
+      "market": "China",
+      "variant_count": 6,
+      "spec_status": "needs_exact_china_source_verification",
+      "source_url": null
+    },
+    {
+      "brand": "Huawei",
+      "seller_model_name": "Huawei Mate XT2 Ultimate Design",
+      "market": "China",
+      "variant_count": 9,
+      "spec_status": "needs_exact_china_source_verification",
+      "source_url": null
+    },
+    {
+      "brand": "Huawei",
+      "seller_model_name": "Huawei Mate XTs Ultimate Design",
+      "market": "China",
+      "variant_count": 7,
+      "spec_status": "needs_exact_china_source_verification",
+      "source_url": null
+    },
+    {
+      "brand": "Huawei",
+      "seller_model_name": "Huawei Mate60",
+      "market": "China",
+      "variant_count": 1,
+      "spec_status": "needs_exact_china_source_verification",
+      "source_url": null
+    },
+    {
+      "brand": "Huawei",
+      "seller_model_name": "Huawei Mate70",
+      "market": "China",
+      "variant_count": 1,
+      "spec_status": "needs_exact_china_source_verification",
+      "source_url": null
+    },
+    {
+      "brand": "Huawei",
+      "seller_model_name": "Huawei Mate70 Air Kirin 9020B",
+      "market": "China",
+      "variant_count": 2,
+      "spec_status": "needs_exact_china_source_verification",
+      "source_url": null
+    },
+    {
+      "brand": "Huawei",
+      "seller_model_name": "Huawei Mate70 PRO",
+      "market": "China",
+      "variant_count": 2,
+      "spec_status": "needs_exact_china_source_verification",
+      "source_url": null
+    },
+    {
+      "brand": "Huawei",
+      "seller_model_name": "Huawei Mate70 PRO+",
+      "market": "China",
+      "variant_count": 1,
+      "spec_status": "needs_exact_china_source_verification",
+      "source_url": null
+    },
+    {
+      "brand": "Huawei",
+      "seller_model_name": "Huawei Mate80",
+      "market": "China",
+      "variant_count": 12,
+      "spec_status": "needs_exact_china_source_verification",
+      "source_url": null
+    },
+    {
+      "brand": "Huawei",
+      "seller_model_name": "Huawei Mate80 PRO",
+      "market": "China",
+      "variant_count": 8,
+      "spec_status": "needs_exact_china_source_verification",
+      "source_url": null
+    },
+    {
+      "brand": "Huawei",
+      "seller_model_name": "Huawei Mate80 Pro Max",
+      "market": "China",
+      "variant_count": 7,
+      "spec_status": "needs_exact_china_source_verification",
+      "source_url": null
+    },
+    {
+      "brand": "Huawei",
+      "seller_model_name": "Huawei Mate80 Pro Max Speed Edition",
+      "market": "China",
+      "variant_count": 1,
+      "spec_status": "needs_exact_china_source_verification",
+      "source_url": null
+    },
+    {
+      "brand": "Huawei",
+      "seller_model_name": "Huawei Mate80 RS Ultimate Design",
+      "market": "China",
+      "variant_count": 2,
+      "spec_status": "needs_exact_china_source_verification",
+      "source_url": null
+    },
+    {
+      "brand": "Huawei",
+      "seller_model_name": "Huawei Mate90",
+      "market": "China",
+      "variant_count": 12,
+      "spec_status": "needs_exact_china_source_verification",
+      "source_url": null
+    },
+    {
+      "brand": "Huawei",
+      "seller_model_name": "Huawei Mate90 PRO",
+      "market": "China",
+      "variant_count": 16,
+      "spec_status": "needs_exact_china_source_verification",
+      "source_url": null
+    },
+    {
+      "brand": "Huawei",
+      "seller_model_name": "Huawei Mate90 PRO MAX",
+      "market": "China",
+      "variant_count": 14,
+      "spec_status": "needs_exact_china_source_verification",
+      "source_url": null
+    },
+    {
+      "brand": "Huawei",
+      "seller_model_name": "Huawei Mate90 Pro Max Collector Edition",
+      "market": "China",
+      "variant_count": 1,
+      "spec_status": "needs_exact_china_source_verification",
+      "source_url": null
+    },
+    {
+      "brand": "Huawei",
+      "seller_model_name": "Huawei Mate90 RS Ultimate Design",
+      "market": "China",
+      "variant_count": 7,
+      "spec_status": "needs_exact_china_source_verification",
+      "source_url": null
+    },
+    {
+      "brand": "Huawei",
+      "seller_model_name": "Huawei MateX6 Fold",
+      "market": "China",
+      "variant_count": 6,
+      "spec_status": "needs_exact_china_source_verification",
+      "source_url": null
+    },
+    {
+      "brand": "Huawei",
+      "seller_model_name": "Huawei MateX7 Collector Fold",
+      "market": "China",
+      "variant_count": 6,
+      "spec_status": "needs_exact_china_source_verification",
+      "source_url": null
+    },
+    {
+      "brand": "Huawei",
+      "seller_model_name": "Huawei MateX7 Fold",
+      "market": "China",
+      "variant_count": 6,
+      "spec_status": "needs_exact_china_source_verification",
+      "source_url": null
+    },
+    {
+      "brand": "Huawei",
+      "seller_model_name": "Huawei Pocket2",
+      "market": "China",
+      "variant_count": 1,
+      "spec_status": "needs_exact_china_source_verification",
+      "source_url": null
+    },
+    {
+      "brand": "Huawei",
+      "seller_model_name": "Huawei Pura X",
+      "market": "China",
+      "variant_count": 6,
+      "spec_status": "needs_exact_china_source_verification",
+      "source_url": null
+    },
+    {
+      "brand": "Huawei",
+      "seller_model_name": "Huawei Pura X Collector",
+      "market": "China",
+      "variant_count": 2,
+      "spec_status": "needs_exact_china_source_verification",
+      "source_url": null
+    },
+    {
+      "brand": "Huawei",
+      "seller_model_name": "Huawei Pura X Max",
+      "market": "China",
+      "variant_count": 11,
+      "spec_status": "needs_exact_china_source_verification",
+      "source_url": null
+    },
+    {
+      "brand": "Huawei",
+      "seller_model_name": "Huawei Pura X Max Collector",
+      "market": "China",
+      "variant_count": 10,
+      "spec_status": "needs_exact_china_source_verification",
+      "source_url": null
+    },
+    {
+      "brand": "Huawei",
+      "seller_model_name": "Huawei Pura X View",
+      "market": "China",
+      "variant_count": 10,
+      "spec_status": "needs_exact_china_source_verification",
+      "source_url": null
+    },
+    {
+      "brand": "Huawei",
+      "seller_model_name": "Huawei Pura80",
+      "market": "China",
+      "variant_count": 3,
+      "spec_status": "needs_exact_china_source_verification",
+      "source_url": null
+    },
+    {
+      "brand": "Huawei",
+      "seller_model_name": "Huawei Pura80 PRO",
+      "market": "China",
+      "variant_count": 3,
+      "spec_status": "needs_exact_china_source_verification",
+      "source_url": null
+    },
+    {
+      "brand": "Huawei",
+      "seller_model_name": "Huawei Pura80 PRO+",
+      "market": "China",
+      "variant_count": 3,
+      "spec_status": "needs_exact_china_source_verification",
+      "source_url": null
+    },
+    {
+      "brand": "Huawei",
+      "seller_model_name": "Huawei Pura80 Ultra",
+      "market": "China",
+      "variant_count": 2,
+      "spec_status": "needs_exact_china_source_verification",
+      "source_url": null
+    },
+    {
+      "brand": "Huawei",
+      "seller_model_name": "Huawei Pura90",
+      "market": "China",
+      "variant_count": 7,
+      "spec_status": "needs_exact_china_source_verification",
+      "source_url": null
+    },
+    {
+      "brand": "Huawei",
+      "seller_model_name": "Huawei Pura90 Plus",
+      "market": "China",
+      "variant_count": 7,
+      "spec_status": "needs_exact_china_source_verification",
+      "source_url": null
+    },
+    {
+      "brand": "Huawei",
+      "seller_model_name": "Huawei Pura90 Pro",
+      "market": "China",
+      "variant_count": 10,
+      "spec_status": "needs_exact_china_source_verification",
+      "source_url": null
+    },
+    {
+      "brand": "Huawei",
+      "seller_model_name": "Huawei Pura90 Pro Max",
+      "market": "China",
+      "variant_count": 15,
+      "spec_status": "needs_exact_china_source_verification",
+      "source_url": null
+    },
+    {
+      "brand": "Huawei",
+      "seller_model_name": "Huawei Select HI Enjoy 70 Pro",
+      "market": "China",
+      "variant_count": 1,
+      "spec_status": "needs_exact_china_source_verification",
+      "source_url": null
+    },
+    {
+      "brand": "Huawei",
+      "seller_model_name": "Huawei Select Hi Enjoy 80",
+      "market": "China",
+      "variant_count": 3,
+      "spec_status": "needs_exact_china_source_verification",
+      "source_url": null
+    },
+    {
+      "brand": "Huawei",
+      "seller_model_name": "Huawei Select Hi Enjoy 80 Pro",
+      "market": "China",
+      "variant_count": 8,
+      "spec_status": "needs_exact_china_source_verification",
+      "source_url": null
+    },
+    {
+      "brand": "Huawei",
+      "seller_model_name": "Huawei Select Hi Enjoy 80 plus",
+      "market": "China",
+      "variant_count": 4,
+      "spec_status": "needs_exact_china_source_verification",
+      "source_url": null
+    },
+    {
+      "brand": "Huawei",
+      "seller_model_name": "Huawei Select Hi Enjoy 80S",
+      "market": "China",
+      "variant_count": 5,
+      "spec_status": "needs_exact_china_source_verification",
+      "source_url": null
+    },
+    {
+      "brand": "Huawei",
+      "seller_model_name": "Huawei Select Maimang 40",
+      "market": "China",
+      "variant_count": 8,
+      "spec_status": "needs_exact_china_source_verification",
+      "source_url": null
+    },
+    {
+      "brand": "Huawei",
+      "seller_model_name": "Huawei nova14",
+      "market": "China",
+      "variant_count": 2,
+      "spec_status": "needs_exact_china_source_verification",
+      "source_url": null
+    },
+    {
+      "brand": "Huawei",
+      "seller_model_name": "Huawei nova14 Kunlun Glass",
+      "market": "China",
+      "variant_count": 1,
+      "spec_status": "needs_exact_china_source_verification",
+      "source_url": null
+    },
+    {
+      "brand": "Huawei",
+      "seller_model_name": "Huawei nova14 PRO",
+      "market": "China",
+      "variant_count": 5,
+      "spec_status": "needs_exact_china_source_verification",
+      "source_url": null
+    },
+    {
+      "brand": "Huawei",
+      "seller_model_name": "Huawei nova14 PRO Kunlun Glass",
+      "market": "China",
+      "variant_count": 3,
+      "spec_status": "needs_exact_china_source_verification",
+      "source_url": null
+    },
+    {
+      "brand": "Huawei",
+      "seller_model_name": "Huawei nova14 Ultra",
+      "market": "China",
+      "variant_count": 3,
+      "spec_status": "needs_exact_china_source_verification",
+      "source_url": null
+    },
+    {
+      "brand": "Huawei",
+      "seller_model_name": "Huawei nova14 Vitality Edition",
+      "market": "China",
+      "variant_count": 5,
+      "spec_status": "needs_exact_china_source_verification",
+      "source_url": null
+    },
+    {
+      "brand": "Huawei",
+      "seller_model_name": "Huawei nova15",
+      "market": "China",
+      "variant_count": 8,
+      "spec_status": "needs_exact_china_source_verification",
+      "source_url": null
+    },
+    {
+      "brand": "Huawei",
+      "seller_model_name": "Huawei nova15 PRO",
+      "market": "China",
+      "variant_count": 2,
+      "spec_status": "needs_exact_china_source_verification",
+      "source_url": null
+    },
+    {
+      "brand": "Huawei",
+      "seller_model_name": "Huawei nova15 PRO Kunlun Glass",
+      "market": "China",
+      "variant_count": 7,
+      "spec_status": "needs_exact_china_source_verification",
+      "source_url": null
+    },
+    {
+      "brand": "Huawei",
+      "seller_model_name": "Huawei nova15 Ultra Kunlun Glass",
+      "market": "China",
+      "variant_count": 1,
+      "spec_status": "needs_exact_china_source_verification",
+      "source_url": null
+    },
+    {
+      "brand": "Huawei",
+      "seller_model_name": "Huawei nova16",
+      "market": "China",
+      "variant_count": 8,
+      "spec_status": "needs_exact_china_source_verification",
+      "source_url": null
+    },
+    {
+      "brand": "Huawei",
+      "seller_model_name": "Huawei nova16 SE",
+      "market": "China",
+      "variant_count": 7,
+      "spec_status": "needs_exact_china_source_verification",
+      "source_url": null
+    },
+    {
+      "brand": "Huawei",
+      "seller_model_name": "Huawei nova16 Ultra",
+      "market": "China",
+      "variant_count": 4,
+      "spec_status": "needs_exact_china_source_verification",
+      "source_url": null
+    },
+    {
+      "brand": "Huawei",
+      "seller_model_name": "Huawei nova16 pro",
+      "market": "China",
+      "variant_count": 6,
+      "spec_status": "needs_exact_china_source_verification",
+      "source_url": null
+    },
+    {
+      "brand": "Jinmuzhi / Jinshouzhi",
+      "seller_model_name": "Jinmuzhi A53-4G All-Network",
+      "market": "China",
+      "variant_count": 3,
+      "spec_status": "needs_exact_china_source_verification",
+      "source_url": null
+    },
+    {
+      "brand": "Jinmuzhi / Jinshouzhi",
+      "seller_model_name": "Jinmuzhi A61-4G All-Network",
+      "market": "China",
+      "variant_count": 4,
+      "spec_status": "needs_exact_china_source_verification",
+      "source_url": null
+    },
+    {
+      "brand": "Jinmuzhi / Jinshouzhi",
+      "seller_model_name": "Jinmuzhi A63-4G All-Network",
+      "market": "China",
+      "variant_count": 4,
+      "spec_status": "needs_exact_china_source_verification",
+      "source_url": null
+    },
+    {
+      "brand": "Jinmuzhi / Jinshouzhi",
+      "seller_model_name": "Jinmuzhi A67 Enhanced Edition 4G All-Network",
+      "market": "China",
+      "variant_count": 1,
+      "spec_status": "needs_exact_china_source_verification",
+      "source_url": null
+    },
+    {
+      "brand": "Jinmuzhi / Jinshouzhi",
+      "seller_model_name": "Jinmuzhi A69-4G All-Network",
+      "market": "China",
+      "variant_count": 4,
+      "spec_status": "needs_exact_china_source_verification",
+      "source_url": null
+    },
+    {
+      "brand": "Jinmuzhi / Jinshouzhi",
+      "seller_model_name": "Jinmuzhi A71-4G All-Network",
+      "market": "China",
+      "variant_count": 2,
+      "spec_status": "needs_exact_china_source_verification",
+      "source_url": null
+    },
+    {
+      "brand": "Jinmuzhi / Jinshouzhi",
+      "seller_model_name": "Jinmuzhi A75-4G All-Network",
+      "market": "China",
+      "variant_count": 1,
+      "spec_status": "needs_exact_china_source_verification",
+      "source_url": null
+    },
+    {
+      "brand": "Jinmuzhi / Jinshouzhi",
+      "seller_model_name": "Jinmuzhi A76-4G All-Network",
+      "market": "China",
+      "variant_count": 2,
+      "spec_status": "needs_exact_china_source_verification",
+      "source_url": null
+    },
+    {
+      "brand": "Jinmuzhi / Jinshouzhi",
+      "seller_model_name": "Jinmuzhi A80-4G All-Network",
+      "market": "China",
+      "variant_count": 4,
+      "spec_status": "needs_exact_china_source_verification",
+      "source_url": null
+    },
+    {
+      "brand": "Jinmuzhi / Jinshouzhi",
+      "seller_model_name": "Jinmuzhi A83 Dalishen -4G All-Network",
+      "market": "China",
+      "variant_count": 1,
+      "spec_status": "needs_exact_china_source_verification",
+      "source_url": null
+    },
+    {
+      "brand": "Jinmuzhi / Jinshouzhi",
+      "seller_model_name": "Jinmuzhi A85-4G All-Network",
+      "market": "China",
+      "variant_count": 3,
+      "spec_status": "needs_exact_china_source_verification",
+      "source_url": null
+    },
+    {
+      "brand": "Jinmuzhi / Jinshouzhi",
+      "seller_model_name": "Jinmuzhi A86 Jinpin -4G All-Network",
+      "market": "China",
+      "variant_count": 4,
+      "spec_status": "needs_exact_china_source_verification",
+      "source_url": null
+    },
+    {
+      "brand": "Jinmuzhi / Jinshouzhi",
+      "seller_model_name": "Jinmuzhi A88-4G All-Network",
+      "market": "China",
+      "variant_count": 3,
+      "spec_status": "needs_exact_china_source_verification",
+      "source_url": null
+    },
+    {
+      "brand": "Jinmuzhi / Jinshouzhi",
+      "seller_model_name": "Jinmuzhi Big Battery King A87-4G All-Network",
+      "market": "China",
+      "variant_count": 2,
+      "spec_status": "needs_exact_china_source_verification",
+      "source_url": null
+    },
+    {
+      "brand": "Jinmuzhi / Jinshouzhi",
+      "seller_model_name": "Jinmuzhi Flip K53-4G All-Network",
+      "market": "China",
+      "variant_count": 3,
+      "spec_status": "needs_exact_china_source_verification",
+      "source_url": null
+    },
+    {
+      "brand": "Jinmuzhi / Jinshouzhi",
+      "seller_model_name": "Jinmuzhi Flip K54-4G All-Network",
+      "market": "China",
+      "variant_count": 2,
+      "spec_status": "needs_exact_china_source_verification",
+      "source_url": null
+    },
+    {
+      "brand": "Jinmuzhi / Jinshouzhi",
+      "seller_model_name": "Jinmuzhi Flip K55-4G All-Network",
+      "market": "China",
+      "variant_count": 2,
+      "spec_status": "needs_exact_china_source_verification",
+      "source_url": null
+    },
+    {
+      "brand": "Jinmuzhi / Jinshouzhi",
+      "seller_model_name": "Jinmuzhi Flip K56-4G All-Network",
+      "market": "China",
+      "variant_count": 2,
+      "spec_status": "needs_exact_china_source_verification",
+      "source_url": null
+    },
+    {
+      "brand": "Jinmuzhi / Jinshouzhi",
+      "seller_model_name": "Jinshouzhi Q7 Kuaile 4G All-Network",
+      "market": "China",
+      "variant_count": 2,
+      "spec_status": "needs_exact_china_source_verification",
+      "source_url": null
+    },
+    {
+      "brand": "Lenovo",
+      "seller_model_name": "Lenovo Legion Phone Y70 New Gen",
+      "market": "China",
+      "variant_count": 7,
+      "spec_status": "needs_exact_china_source_verification",
+      "source_url": null
+    },
+    {
+      "brand": "Motorola",
+      "seller_model_name": "Motorola G100",
+      "market": "China",
+      "variant_count": 6,
+      "spec_status": "needs_exact_china_source_verification",
+      "source_url": null
+    },
+    {
+      "brand": "Motorola",
+      "seller_model_name": "Motorola G100 pro",
+      "market": "China",
+      "variant_count": 8,
+      "spec_status": "needs_exact_china_source_verification",
+      "source_url": null
+    },
+    {
+      "brand": "Motorola",
+      "seller_model_name": "Motorola MOTO G100S",
+      "market": "China",
+      "variant_count": 4,
+      "spec_status": "needs_exact_china_source_verification",
+      "source_url": null
+    },
+    {
+      "brand": "Motorola",
+      "seller_model_name": "Motorola MOTO X70 Air",
+      "market": "China",
+      "variant_count": 3,
+      "spec_status": "needs_exact_china_source_verification",
+      "source_url": null
+    },
+    {
+      "brand": "Motorola",
+      "seller_model_name": "Motorola MOTO X70 Air PRO",
+      "market": "China",
+      "variant_count": 2,
+      "spec_status": "needs_exact_china_source_verification",
+      "source_url": null
+    },
+    {
+      "brand": "Motorola",
+      "seller_model_name": "Motorola moto S50",
+      "market": "China",
+      "variant_count": 2,
+      "spec_status": "needs_exact_china_source_verification",
+      "source_url": null
+    },
+    {
+      "brand": "Motorola",
+      "seller_model_name": "Motorola moto razr 50",
+      "market": "China",
+      "variant_count": 1,
+      "spec_status": "needs_exact_china_source_verification",
+      "source_url": null
+    },
+    {
+      "brand": "Motorola",
+      "seller_model_name": "Motorola moto razr 60",
+      "market": "China",
+      "variant_count": 8,
+      "spec_status": "needs_exact_china_source_verification",
+      "source_url": null
+    },
+    {
+      "brand": "Motorola",
+      "seller_model_name": "Motorola moto razr 60 Ultra",
+      "market": "China",
+      "variant_count": 4,
+      "spec_status": "needs_exact_china_source_verification",
+      "source_url": null
+    },
+    {
+      "brand": "Motorola",
+      "seller_model_name": "Motorola moto razr 70 Ultra",
+      "market": "China",
+      "variant_count": 6,
+      "spec_status": "needs_exact_china_source_verification",
+      "source_url": null
+    },
+    {
+      "brand": "Motorola",
+      "seller_model_name": "Motorola moto razr Fold",
+      "market": "China",
+      "variant_count": 6,
+      "spec_status": "needs_exact_china_source_verification",
+      "source_url": null
+    },
+    {
+      "brand": "Nokia / HMD",
+      "seller_model_name": "HMD 105 4G",
+      "market": "China",
+      "variant_count": 2,
+      "spec_status": "needs_exact_china_source_verification",
+      "source_url": null
+    },
+    {
+      "brand": "Nubia",
+      "seller_model_name": "Nubia Red Magic 12 pro+",
+      "market": "China",
+      "variant_count": 4,
+      "spec_status": "needs_exact_china_source_verification",
+      "source_url": null
+    },
+    {
+      "brand": "OPPO",
+      "seller_model_name": "OPPO A3i",
+      "market": "China",
+      "variant_count": 7,
+      "spec_status": "needs_exact_china_source_verification",
+      "source_url": null
+    },
+    {
+      "brand": "OPPO",
+      "seller_model_name": "OPPO A3i Plus",
+      "market": "China",
+      "variant_count": 2,
+      "spec_status": "needs_exact_china_source_verification",
+      "source_url": null
+    },
+    {
+      "brand": "OPPO",
+      "seller_model_name": "OPPO A5",
+      "market": "China",
+      "variant_count": 2,
+      "spec_status": "needs_exact_china_source_verification",
+      "source_url": null
+    },
+    {
+      "brand": "OPPO",
+      "seller_model_name": "OPPO A5 Pro",
+      "market": "China",
+      "variant_count": 1,
+      "spec_status": "needs_exact_china_source_verification",
+      "source_url": null
+    },
+    {
+      "brand": "OPPO",
+      "seller_model_name": "OPPO A5 Vitality Edition",
+      "market": "China",
+      "variant_count": 6,
+      "spec_status": "needs_exact_china_source_verification",
+      "source_url": null
+    },
+    {
+      "brand": "OPPO",
+      "seller_model_name": "OPPO A5X",
+      "market": "China",
+      "variant_count": 3,
+      "spec_status": "needs_exact_china_source_verification",
+      "source_url": null
+    },
+    {
+      "brand": "OPPO",
+      "seller_model_name": "OPPO A5m",
+      "market": "China",
+      "variant_count": 4,
+      "spec_status": "needs_exact_china_source_verification",
+      "source_url": null
+    },
+    {
+      "brand": "OPPO",
+      "seller_model_name": "OPPO A6",
+      "market": "China",
+      "variant_count": 6,
+      "spec_status": "needs_exact_china_source_verification",
+      "source_url": null
+    },
+    {
+      "brand": "OPPO",
+      "seller_model_name": "OPPO A6 GT",
+      "market": "China",
+      "variant_count": 6,
+      "spec_status": "needs_exact_china_source_verification",
+      "source_url": null
+    },
+    {
+      "brand": "OPPO",
+      "seller_model_name": "OPPO A6 MAX",
+      "market": "China",
+      "variant_count": 2,
+      "spec_status": "needs_exact_china_source_verification",
+      "source_url": null
+    },
+    {
+      "brand": "OPPO",
+      "seller_model_name": "OPPO A6 Plus",
+      "market": "China",
+      "variant_count": 1,
+      "spec_status": "needs_exact_china_source_verification",
+      "source_url": null
+    },
+    {
+      "brand": "OPPO",
+      "seller_model_name": "OPPO A6 Pro",
+      "market": "China",
+      "variant_count": 8,
+      "spec_status": "needs_exact_china_source_verification",
+      "source_url": null
+    },
+    {
+      "brand": "OPPO",
+      "seller_model_name": "OPPO A6C 4G",
+      "market": "China",
+      "variant_count": 2,
+      "spec_status": "needs_exact_china_source_verification",
+      "source_url": null
+    },
+    {
+      "brand": "OPPO",
+      "seller_model_name": "OPPO A6L",
+      "market": "China",
+      "variant_count": 3,
+      "spec_status": "needs_exact_china_source_verification",
+      "source_url": null
+    },
+    {
+      "brand": "OPPO",
+      "seller_model_name": "OPPO A6S",
+      "market": "China",
+      "variant_count": 4,
+      "spec_status": "needs_exact_china_source_verification",
+      "source_url": null
+    },
+    {
+      "brand": "OPPO",
+      "seller_model_name": "OPPO A6S Pro",
+      "market": "China",
+      "variant_count": 7,
+      "spec_status": "needs_exact_china_source_verification",
+      "source_url": null
+    },
+    {
+      "brand": "OPPO",
+      "seller_model_name": "OPPO A6X",
+      "market": "China",
+      "variant_count": 9,
+      "spec_status": "needs_exact_china_source_verification",
+      "source_url": null
+    },
+    {
+      "brand": "OPPO",
+      "seller_model_name": "OPPO A6i",
+      "market": "China",
+      "variant_count": 6,
+      "spec_status": "needs_exact_china_source_verification",
+      "source_url": null
+    },
+    {
+      "brand": "OPPO",
+      "seller_model_name": "OPPO A6i+",
+      "market": "China",
+      "variant_count": 8,
+      "spec_status": "needs_exact_china_source_verification",
+      "source_url": null
+    },
+    {
+      "brand": "OPPO",
+      "seller_model_name": "OPPO A6k",
+      "market": "China",
+      "variant_count": 8,
+      "spec_status": "needs_exact_china_source_verification",
+      "source_url": null
+    },
+    {
+      "brand": "OPPO",
+      "seller_model_name": "OPPO A6m",
+      "market": "China",
+      "variant_count": 2,
+      "spec_status": "needs_exact_china_source_verification",
+      "source_url": null
+    },
+    {
+      "brand": "OPPO",
+      "seller_model_name": "OPPO A6t",
+      "market": "China",
+      "variant_count": 17,
+      "spec_status": "needs_exact_china_source_verification",
+      "source_url": null
+    },
+    {
+      "brand": "OPPO",
+      "seller_model_name": "OPPO A6v",
+      "market": "China",
+      "variant_count": 3,
+      "spec_status": "needs_exact_china_source_verification",
+      "source_url": null
+    },
+    {
+      "brand": "OPPO",
+      "seller_model_name": "OPPO A7 Pro",
+      "market": "China",
+      "variant_count": 6,
+      "spec_status": "needs_exact_china_source_verification",
+      "source_url": null
+    },
+    {
+      "brand": "OPPO",
+      "seller_model_name": "OPPO A7 Pro Max",
+      "market": "China",
+      "variant_count": 9,
+      "spec_status": "needs_exact_china_source_verification",
+      "source_url": null
+    },
+    {
+      "brand": "OPPO",
+      "seller_model_name": "OPPO Find N6 Foldable",
+      "market": "China",
+      "variant_count": 5,
+      "spec_status": "needs_exact_china_source_verification",
+      "source_url": null
+    },
+    {
+      "brand": "OPPO",
+      "seller_model_name": "OPPO Find X10",
+      "market": "China",
+      "variant_count": 11,
+      "spec_status": "official_china_record_present",
+      "source_url": "https://www.oppo.com/cn/smartphones/series-find-x/find-x10/specs/"
+    },
+    {
+      "brand": "OPPO",
+      "seller_model_name": "OPPO Find X10 Pro Max",
+      "market": "China",
+      "variant_count": 8,
+      "spec_status": "needs_exact_china_source_verification",
+      "source_url": null
+    },
+    {
+      "brand": "OPPO",
+      "seller_model_name": "OPPO Find X10E",
+      "market": "China",
+      "variant_count": 4,
+      "spec_status": "needs_exact_china_source_verification",
+      "source_url": null
+    },
+    {
+      "brand": "OPPO",
+      "seller_model_name": "OPPO Find X8S+",
+      "market": "China",
+      "variant_count": 2,
+      "spec_status": "needs_exact_china_source_verification",
+      "source_url": null
+    },
+    {
+      "brand": "OPPO",
+      "seller_model_name": "OPPO Find X9",
+      "market": "China",
+      "variant_count": 13,
+      "spec_status": "needs_exact_china_source_verification",
+      "source_url": null
+    },
+    {
+      "brand": "OPPO",
+      "seller_model_name": "OPPO Find X9 Pro",
+      "market": "China",
+      "variant_count": 10,
+      "spec_status": "official_china_record_present",
+      "source_url": "https://www.oppo.com/cn/smartphones/series-find-x/find-x9-pro/specs/",
+      "coverage": "Partial reviewed fields only; not a complete device specification audit."
+    },
+    {
+      "brand": "OPPO",
+      "seller_model_name": "OPPO Find X9 Ultra",
+      "market": "China",
+      "variant_count": 13,
+      "spec_status": "needs_exact_china_source_verification",
+      "source_url": null
+    },
+    {
+      "brand": "OPPO",
+      "seller_model_name": "OPPO Find X9S Pro",
+      "market": "China",
+      "variant_count": 16,
+      "spec_status": "needs_exact_china_source_verification",
+      "source_url": null
+    },
+    {
+      "brand": "OPPO",
+      "seller_model_name": "OPPO Reno14",
+      "market": "China",
+      "variant_count": 7,
+      "spec_status": "needs_exact_china_source_verification",
+      "source_url": null
+    },
+    {
+      "brand": "OPPO",
+      "seller_model_name": "OPPO Reno14 Pro",
+      "market": "China",
+      "variant_count": 1,
+      "spec_status": "needs_exact_china_source_verification",
+      "source_url": null
+    },
+    {
+      "brand": "OPPO",
+      "seller_model_name": "OPPO Reno15",
+      "market": "China",
+      "variant_count": 12,
+      "spec_status": "needs_exact_china_source_verification",
+      "source_url": null
+    },
+    {
+      "brand": "OPPO",
+      "seller_model_name": "OPPO Reno15 Pro",
+      "market": "China",
+      "variant_count": 6,
+      "spec_status": "needs_exact_china_source_verification",
+      "source_url": null
+    },
+    {
+      "brand": "OPPO",
+      "seller_model_name": "OPPO Reno15c",
+      "market": "China",
+      "variant_count": 5,
+      "spec_status": "needs_exact_china_source_verification",
+      "source_url": null
+    },
+    {
+      "brand": "OPPO",
+      "seller_model_name": "OPPO Reno16",
+      "market": "China",
+      "variant_count": 14,
+      "spec_status": "needs_exact_china_source_verification",
+      "source_url": null
+    },
+    {
+      "brand": "OPPO",
+      "seller_model_name": "OPPO Reno16 Pro",
+      "market": "China",
+      "variant_count": 9,
+      "spec_status": "needs_exact_china_source_verification",
+      "source_url": null
+    },
+    {
+      "brand": "OPPO",
+      "seller_model_name": "OPPO Reno16T",
+      "market": "China",
+      "variant_count": 6,
+      "spec_status": "needs_exact_china_source_verification",
+      "source_url": null
+    },
+    {
+      "brand": "OPPO",
+      "seller_model_name": "OPPO k12s",
+      "market": "China",
+      "variant_count": 11,
+      "spec_status": "needs_exact_china_source_verification",
+      "source_url": null
+    },
+    {
+      "brand": "OPPO",
+      "seller_model_name": "OPPO k13 Turbo",
+      "market": "China",
+      "variant_count": 10,
+      "spec_status": "needs_exact_china_source_verification",
+      "source_url": null
+    },
+    {
+      "brand": "OPPO",
+      "seller_model_name": "OPPO k13 Turbo Pro",
+      "market": "China",
+      "variant_count": 11,
+      "spec_status": "needs_exact_china_source_verification",
+      "source_url": null
+    },
+    {
+      "brand": "OPPO",
+      "seller_model_name": "OPPO k13s",
+      "market": "China",
+      "variant_count": 2,
+      "spec_status": "needs_exact_china_source_verification",
+      "source_url": null
+    },
+    {
+      "brand": "OPPO",
+      "seller_model_name": "OPPO k13x",
+      "market": "China",
+      "variant_count": 4,
+      "spec_status": "needs_exact_china_source_verification",
+      "source_url": null
+    },
+    {
+      "brand": "OPPO",
+      "seller_model_name": "OPPO k15",
+      "market": "China",
+      "variant_count": 2,
+      "spec_status": "needs_exact_china_source_verification",
+      "source_url": null
+    },
+    {
+      "brand": "OPPO",
+      "seller_model_name": "OPPO k15 Pro",
+      "market": "China",
+      "variant_count": 6,
+      "spec_status": "needs_exact_china_source_verification",
+      "source_url": null
+    },
+    {
+      "brand": "OPPO",
+      "seller_model_name": "OPPO k15 Pro+",
+      "market": "China",
+      "variant_count": 5,
+      "spec_status": "needs_exact_china_source_verification",
+      "source_url": null
+    },
+    {
+      "brand": "OPPO",
+      "seller_model_name": "OPPO k15x",
+      "market": "China",
+      "variant_count": 3,
+      "spec_status": "needs_exact_china_source_verification",
+      "source_url": null
+    },
+    {
+      "brand": "OnePlus",
+      "seller_model_name": "OnePlus 15",
+      "market": "China",
+      "variant_count": 9,
+      "spec_status": "needs_exact_china_source_verification",
+      "source_url": null
+    },
+    {
+      "brand": "OnePlus",
+      "seller_model_name": "OnePlus 15T",
+      "market": "China",
+      "variant_count": 8,
+      "spec_status": "needs_exact_china_source_verification",
+      "source_url": null
+    },
+    {
+      "brand": "OnePlus",
+      "seller_model_name": "OnePlus 16",
+      "market": "China",
+      "variant_count": 4,
+      "spec_status": "needs_exact_china_source_verification",
+      "source_url": null
+    },
+    {
+      "brand": "OnePlus",
+      "seller_model_name": "OnePlus ACE 6",
+      "market": "China",
+      "variant_count": 3,
+      "spec_status": "needs_exact_china_source_verification",
+      "source_url": null
+    },
+    {
+      "brand": "OnePlus",
+      "seller_model_name": "OnePlus ACE 6 Ultra Edition",
+      "market": "China",
+      "variant_count": 5,
+      "spec_status": "needs_exact_china_source_verification",
+      "source_url": null
+    },
+    {
+      "brand": "OnePlus",
+      "seller_model_name": "OnePlus ACE 6T",
+      "market": "China",
+      "variant_count": 4,
+      "spec_status": "needs_exact_china_source_verification",
+      "source_url": null
+    },
+    {
+      "brand": "OnePlus",
+      "seller_model_name": "OnePlus ACE 7Pro",
+      "market": "China",
+      "variant_count": 2,
+      "spec_status": "needs_exact_china_source_verification",
+      "source_url": null
+    },
+    {
+      "brand": "OnePlus",
+      "seller_model_name": "OnePlus Turbo6",
+      "market": "China",
+      "variant_count": 9,
+      "spec_status": "needs_exact_china_source_verification",
+      "source_url": null
+    },
+    {
+      "brand": "OnePlus",
+      "seller_model_name": "OnePlus Turbo6V",
+      "market": "China",
+      "variant_count": 5,
+      "spec_status": "needs_exact_china_source_verification",
+      "source_url": null
+    },
+    {
+      "brand": "OnePlus",
+      "seller_model_name": "OnePlus Turbo6X",
+      "market": "China",
+      "variant_count": 10,
+      "spec_status": "needs_exact_china_source_verification",
+      "source_url": null
+    },
+    {
+      "brand": "OnePlus",
+      "seller_model_name": "OnePlus Turbo6X Pro",
+      "market": "China",
+      "variant_count": 3,
+      "spec_status": "needs_exact_china_source_verification",
+      "source_url": null
+    },
+    {
+      "brand": "Philips",
+      "seller_model_name": "Philips E536",
+      "market": "China",
+      "variant_count": 1,
+      "spec_status": "needs_exact_china_source_verification",
+      "source_url": null
+    },
+    {
+      "brand": "Philips",
+      "seller_model_name": "Philips E568A",
+      "market": "China",
+      "variant_count": 3,
+      "spec_status": "needs_exact_china_source_verification",
+      "source_url": null
+    },
+    {
+      "brand": "Philips",
+      "seller_model_name": "Philips E6128",
+      "market": "China",
+      "variant_count": 3,
+      "spec_status": "needs_exact_china_source_verification",
+      "source_url": null
+    },
+    {
+      "brand": "Philips",
+      "seller_model_name": "Philips E6218",
+      "market": "China",
+      "variant_count": 2,
+      "spec_status": "needs_exact_china_source_verification",
+      "source_url": null
+    },
+    {
+      "brand": "Philips",
+      "seller_model_name": "Philips E6220A New 4G",
+      "market": "China",
+      "variant_count": 2,
+      "spec_status": "needs_exact_china_source_verification",
+      "source_url": null
+    },
+    {
+      "brand": "Philips",
+      "seller_model_name": "Philips E6250",
+      "market": "China",
+      "variant_count": 3,
+      "spec_status": "needs_exact_china_source_verification",
+      "source_url": null
+    },
+    {
+      "brand": "Philips",
+      "seller_model_name": "Philips E6252",
+      "market": "China",
+      "variant_count": 3,
+      "spec_status": "needs_exact_china_source_verification",
+      "source_url": null
+    },
+    {
+      "brand": "Philips",
+      "seller_model_name": "Philips E6256",
+      "market": "China",
+      "variant_count": 4,
+      "spec_status": "needs_exact_china_source_verification",
+      "source_url": null
+    },
+    {
+      "brand": "Philips",
+      "seller_model_name": "Philips E6258",
+      "market": "China",
+      "variant_count": 2,
+      "spec_status": "needs_exact_china_source_verification",
+      "source_url": null
+    },
+    {
+      "brand": "Philips",
+      "seller_model_name": "Philips E6260A",
+      "market": "China",
+      "variant_count": 4,
+      "spec_status": "needs_exact_china_source_verification",
+      "source_url": null
+    },
+    {
+      "brand": "Philips",
+      "seller_model_name": "Philips E6268",
+      "market": "China",
+      "variant_count": 3,
+      "spec_status": "needs_exact_china_source_verification",
+      "source_url": null
+    },
+    {
+      "brand": "Philips",
+      "seller_model_name": "Philips E6510 New 4G Rugged Phone",
+      "market": "China",
+      "variant_count": 2,
+      "spec_status": "needs_exact_china_source_verification",
+      "source_url": null
+    },
+    {
+      "brand": "Philips",
+      "seller_model_name": "Philips E6510A",
+      "market": "China",
+      "variant_count": 3,
+      "spec_status": "needs_exact_china_source_verification",
+      "source_url": null
+    },
+    {
+      "brand": "Philips",
+      "seller_model_name": "Philips E6515 Plus",
+      "market": "China",
+      "variant_count": 3,
+      "spec_status": "needs_exact_china_source_verification",
+      "source_url": null
+    },
+    {
+      "brand": "Philips",
+      "seller_model_name": "Philips E6515/V13 Flip New 4G",
+      "market": "China",
+      "variant_count": 2,
+      "spec_status": "needs_exact_china_source_verification",
+      "source_url": null
+    },
+    {
+      "brand": "Philips",
+      "seller_model_name": "Philips E6612",
+      "market": "China",
+      "variant_count": 4,
+      "spec_status": "needs_exact_china_source_verification",
+      "source_url": null
+    },
+    {
+      "brand": "Philips",
+      "seller_model_name": "Philips E6616 Flip Phone",
+      "market": "China",
+      "variant_count": 2,
+      "spec_status": "needs_exact_china_source_verification",
+      "source_url": null
+    },
+    {
+      "brand": "Philips",
+      "seller_model_name": "Philips E6618 Flip Phone",
+      "market": "China",
+      "variant_count": 3,
+      "spec_status": "needs_exact_china_source_verification",
+      "source_url": null
+    },
+    {
+      "brand": "Philips",
+      "seller_model_name": "Philips E6801",
+      "market": "China",
+      "variant_count": 4,
+      "spec_status": "needs_exact_china_source_verification",
+      "source_url": null
+    },
+    {
+      "brand": "Philips",
+      "seller_model_name": "Philips E6808 New 4G",
+      "market": "China",
+      "variant_count": 2,
+      "spec_status": "needs_exact_china_source_verification",
+      "source_url": null
+    },
+    {
+      "brand": "Philips",
+      "seller_model_name": "Philips S6505",
+      "market": "China",
+      "variant_count": 2,
+      "spec_status": "needs_exact_china_source_verification",
+      "source_url": null
+    },
+    {
+      "brand": "Philips",
+      "seller_model_name": "Philips S709 128G",
+      "market": "China",
+      "variant_count": 2,
+      "spec_status": "needs_exact_china_source_verification",
+      "source_url": null
+    },
+    {
+      "brand": "Realme",
+      "seller_model_name": "Realme 15",
+      "market": "China",
+      "variant_count": 1,
+      "spec_status": "needs_exact_china_source_verification",
+      "source_url": null
+    },
+    {
+      "brand": "Realme",
+      "seller_model_name": "Realme 15T",
+      "market": "China",
+      "variant_count": 3,
+      "spec_status": "needs_exact_china_source_verification",
+      "source_url": null
+    },
+    {
+      "brand": "Realme",
+      "seller_model_name": "Realme GT8",
+      "market": "China",
+      "variant_count": 3,
+      "spec_status": "needs_exact_china_source_verification",
+      "source_url": null
+    },
+    {
+      "brand": "Realme",
+      "seller_model_name": "Realme GT8 Pro",
+      "market": "China",
+      "variant_count": 6,
+      "spec_status": "needs_exact_china_source_verification",
+      "source_url": null
+    },
+    {
+      "brand": "Realme",
+      "seller_model_name": "Realme Neo8",
+      "market": "China",
+      "variant_count": 1,
+      "spec_status": "needs_exact_china_source_verification",
+      "source_url": null
+    },
+    {
+      "brand": "Realme",
+      "seller_model_name": "Realme V70",
+      "market": "China",
+      "variant_count": 2,
+      "spec_status": "needs_exact_china_source_verification",
+      "source_url": null
+    },
+    {
+      "brand": "Realme",
+      "seller_model_name": "Realme V70S",
+      "market": "China",
+      "variant_count": 2,
+      "spec_status": "needs_exact_china_source_verification",
+      "source_url": null
+    },
+    {
+      "brand": "Redmi",
+      "seller_model_name": "Redmi 14C 4G",
+      "market": "China",
+      "variant_count": 12,
+      "spec_status": "needs_exact_china_source_verification",
+      "source_url": null
+    },
+    {
+      "brand": "Redmi",
+      "seller_model_name": "Redmi 14C No Charger 4G",
+      "market": "China",
+      "variant_count": 3,
+      "spec_status": "needs_exact_china_source_verification",
+      "source_url": null
+    },
+    {
+      "brand": "Redmi",
+      "seller_model_name": "Redmi 14R",
+      "market": "China",
+      "variant_count": 3,
+      "spec_status": "needs_exact_china_source_verification",
+      "source_url": null
+    },
+    {
+      "brand": "Redmi",
+      "seller_model_name": "Redmi 15R",
+      "market": "China",
+      "variant_count": 4,
+      "spec_status": "needs_exact_china_source_verification",
+      "source_url": null
+    },
+    {
+      "brand": "Redmi",
+      "seller_model_name": "Redmi 15R AI Edition",
+      "market": "China",
+      "variant_count": 4,
+      "spec_status": "needs_exact_china_source_verification",
+      "source_url": null
+    },
+    {
+      "brand": "Redmi",
+      "seller_model_name": "Redmi 17",
+      "market": "China",
+      "variant_count": 3,
+      "spec_status": "needs_exact_china_source_verification",
+      "source_url": null
+    },
+    {
+      "brand": "Redmi",
+      "seller_model_name": "Redmi 17C 4G",
+      "market": "China",
+      "variant_count": 6,
+      "spec_status": "needs_exact_china_source_verification",
+      "source_url": null
+    },
+    {
+      "brand": "Redmi",
+      "seller_model_name": "Redmi K100",
+      "market": "China",
+      "variant_count": 3,
+      "spec_status": "needs_exact_china_source_verification",
+      "source_url": null
+    },
+    {
+      "brand": "Redmi",
+      "seller_model_name": "Redmi K100 PRO",
+      "market": "China",
+      "variant_count": 8,
+      "spec_status": "needs_exact_china_source_verification",
+      "source_url": null
+    },
+    {
+      "brand": "Redmi",
+      "seller_model_name": "Redmi K100 PRO MAX",
+      "market": "China",
+      "variant_count": 16,
+      "spec_status": "needs_exact_china_source_verification",
+      "source_url": null
+    },
+    {
+      "brand": "Redmi",
+      "seller_model_name": "Redmi K80",
+      "market": "China",
+      "variant_count": 10,
+      "spec_status": "needs_exact_china_source_verification",
+      "source_url": null
+    },
+    {
+      "brand": "Redmi",
+      "seller_model_name": "Redmi K80 Ultra Edition",
+      "market": "China",
+      "variant_count": 10,
+      "spec_status": "needs_exact_china_source_verification",
+      "source_url": null
+    },
+    {
+      "brand": "Redmi",
+      "seller_model_name": "Redmi K90",
+      "market": "China",
+      "variant_count": 7,
+      "spec_status": "needs_exact_china_source_verification",
+      "source_url": null
+    },
+    {
+      "brand": "Redmi",
+      "seller_model_name": "Redmi K90 MAX",
+      "market": "China",
+      "variant_count": 12,
+      "spec_status": "needs_exact_china_source_verification",
+      "source_url": null
+    },
+    {
+      "brand": "Redmi",
+      "seller_model_name": "Redmi K90 Pro MAX",
+      "market": "China",
+      "variant_count": 3,
+      "spec_status": "needs_exact_china_source_verification",
+      "source_url": null
+    },
+    {
+      "brand": "Redmi",
+      "seller_model_name": "Redmi K90 Ultra Edition",
+      "market": "China",
+      "variant_count": 3,
+      "spec_status": "needs_exact_china_source_verification",
+      "source_url": null
+    },
+    {
+      "brand": "Redmi",
+      "seller_model_name": "Redmi Note14",
+      "market": "China",
+      "variant_count": 6,
+      "spec_status": "needs_exact_china_source_verification",
+      "source_url": null
+    },
+    {
+      "brand": "Redmi",
+      "seller_model_name": "Redmi Note14 PRO",
+      "market": "China",
+      "variant_count": 10,
+      "spec_status": "needs_exact_china_source_verification",
+      "source_url": null
+    },
+    {
+      "brand": "Redmi",
+      "seller_model_name": "Redmi Note14 PRO+",
+      "market": "China",
+      "variant_count": 9,
+      "spec_status": "needs_exact_china_source_verification",
+      "source_url": null
+    },
+    {
+      "brand": "Redmi",
+      "seller_model_name": "Redmi Note15",
+      "market": "China",
+      "variant_count": 6,
+      "spec_status": "needs_exact_china_source_verification",
+      "source_url": null
+    },
+    {
+      "brand": "Redmi",
+      "seller_model_name": "Redmi Note15 Pro",
+      "market": "China",
+      "variant_count": 8,
+      "spec_status": "needs_exact_china_source_verification",
+      "source_url": null
+    },
+    {
+      "brand": "Redmi",
+      "seller_model_name": "Redmi Note15 Pro+",
+      "market": "China",
+      "variant_count": 3,
+      "spec_status": "needs_exact_china_source_verification",
+      "source_url": null
+    },
+    {
+      "brand": "Redmi",
+      "seller_model_name": "Redmi Note15 Pro+ AI Edition",
+      "market": "China",
+      "variant_count": 1,
+      "spec_status": "needs_exact_china_source_verification",
+      "source_url": null
+    },
+    {
+      "brand": "Redmi",
+      "seller_model_name": "Redmi Note15R",
+      "market": "China",
+      "variant_count": 6,
+      "spec_status": "needs_exact_china_source_verification",
+      "source_url": null
+    },
+    {
+      "brand": "Redmi",
+      "seller_model_name": "Redmi Note15R Pro",
+      "market": "China",
+      "variant_count": 1,
+      "spec_status": "needs_exact_china_source_verification",
+      "source_url": null
+    },
+    {
+      "brand": "Redmi",
+      "seller_model_name": "Redmi Note17",
+      "market": "China",
+      "variant_count": 8,
+      "spec_status": "needs_exact_china_source_verification",
+      "source_url": null
+    },
+    {
+      "brand": "Redmi",
+      "seller_model_name": "Redmi Note17 pro",
+      "market": "China",
+      "variant_count": 10,
+      "spec_status": "needs_exact_china_source_verification",
+      "source_url": null
+    },
+    {
+      "brand": "Redmi",
+      "seller_model_name": "Redmi R70",
+      "market": "China",
+      "variant_count": 5,
+      "spec_status": "needs_exact_china_source_verification",
+      "source_url": null
+    },
+    {
+      "brand": "Redmi",
+      "seller_model_name": "Redmi R70m",
+      "market": "China",
+      "variant_count": 2,
+      "spec_status": "needs_exact_china_source_verification",
+      "source_url": null
+    },
+    {
+      "brand": "Redmi",
+      "seller_model_name": "Redmi Turbo5",
+      "market": "China",
+      "variant_count": 5,
+      "spec_status": "needs_exact_china_source_verification",
+      "source_url": null
+    },
+    {
+      "brand": "Redmi",
+      "seller_model_name": "Redmi Turbo5 MAX",
+      "market": "China",
+      "variant_count": 6,
+      "spec_status": "needs_exact_china_source_verification",
+      "source_url": null
+    },
+    {
+      "brand": "Samsung",
+      "seller_model_name": "Samsung Galaxy S26",
+      "market": "China",
+      "variant_count": 4,
+      "spec_status": "needs_exact_china_source_verification",
+      "source_url": null
+    },
+    {
+      "brand": "Samsung",
+      "seller_model_name": "Samsung Galaxy S26 Ultra",
+      "market": "China",
+      "variant_count": 11,
+      "spec_status": "needs_exact_china_source_verification",
+      "source_url": null
+    },
+    {
+      "brand": "Samsung",
+      "seller_model_name": "Samsung Galaxy Z Flip8 Foldable",
+      "market": "China",
+      "variant_count": 2,
+      "spec_status": "needs_exact_china_source_verification",
+      "source_url": null
+    },
+    {
+      "brand": "Samsung",
+      "seller_model_name": "Samsung Galaxy Z Fold8 Foldable",
+      "market": "China",
+      "variant_count": 9,
+      "spec_status": "needs_exact_china_source_verification",
+      "source_url": null
+    },
+    {
+      "brand": "Samsung",
+      "seller_model_name": "Samsung Galaxy Z Fold8 Ultar Foldable",
+      "market": "China",
+      "variant_count": 9,
+      "spec_status": "needs_exact_china_source_verification",
+      "source_url": null
+    },
+    {
+      "brand": "Samsung",
+      "seller_model_name": "Samsung Galaxy Z TriFold Tri-Fold",
+      "market": "China",
+      "variant_count": 1,
+      "spec_status": "needs_exact_china_source_verification",
+      "source_url": null
+    },
+    {
+      "brand": "Samsung",
+      "seller_model_name": "Samsung W26 Fold",
+      "market": "China",
+      "variant_count": 3,
+      "spec_status": "needs_exact_china_source_verification",
+      "source_url": null
+    },
+    {
+      "brand": "Samsung",
+      "seller_model_name": "Samsung Z Flip7 Foldable",
+      "market": "China",
+      "variant_count": 5,
+      "spec_status": "needs_exact_china_source_verification",
+      "source_url": null
+    },
+    {
+      "brand": "Samsung",
+      "seller_model_name": "Samsung Z Fold7 Foldable",
+      "market": "China",
+      "variant_count": 4,
+      "spec_status": "needs_exact_china_source_verification",
+      "source_url": null
+    },
+    {
+      "brand": "Xiaomi",
+      "seller_model_name": "Xiaomi 14",
+      "market": "China",
+      "variant_count": 1,
+      "spec_status": "needs_exact_china_source_verification",
+      "source_url": null
+    },
+    {
+      "brand": "Xiaomi",
+      "seller_model_name": "Xiaomi 14 PRO",
+      "market": "China",
+      "variant_count": 1,
+      "spec_status": "needs_exact_china_source_verification",
+      "source_url": null
+    },
+    {
+      "brand": "Xiaomi",
+      "seller_model_name": "Xiaomi 15",
+      "market": "China",
+      "variant_count": 4,
+      "spec_status": "needs_exact_china_source_verification",
+      "source_url": null
+    },
+    {
+      "brand": "Xiaomi",
+      "seller_model_name": "Xiaomi 17",
+      "market": "China",
+      "variant_count": 9,
+      "spec_status": "needs_exact_china_source_verification",
+      "source_url": null
+    },
+    {
+      "brand": "Xiaomi",
+      "seller_model_name": "Xiaomi 17 Max",
+      "market": "China",
+      "variant_count": 7,
+      "spec_status": "needs_exact_china_source_verification",
+      "source_url": null
+    },
+    {
+      "brand": "Xiaomi",
+      "seller_model_name": "Xiaomi 17 Pro",
+      "market": "China",
+      "variant_count": 9,
+      "spec_status": "needs_exact_china_source_verification",
+      "source_url": null
+    },
+    {
+      "brand": "Xiaomi",
+      "seller_model_name": "Xiaomi 17 Pro Max",
+      "market": "China",
+      "variant_count": 9,
+      "spec_status": "needs_exact_china_source_verification",
+      "source_url": null
+    },
+    {
+      "brand": "Xiaomi",
+      "seller_model_name": "Xiaomi 17 Ultra",
+      "market": "China",
+      "variant_count": 8,
+      "spec_status": "needs_exact_china_source_verification",
+      "source_url": null
+    },
+    {
+      "brand": "Xiaomi",
+      "seller_model_name": "Xiaomi 17T Pro",
+      "market": "China",
+      "variant_count": 3,
+      "spec_status": "needs_exact_china_source_verification",
+      "source_url": null
+    },
+    {
+      "brand": "Xiaomi",
+      "seller_model_name": "Xiaomi 18 Fold Foldable Phone",
+      "market": "China",
+      "variant_count": 1,
+      "spec_status": "needs_exact_china_source_verification",
+      "source_url": null
+    },
+    {
+      "brand": "Xiaomi",
+      "seller_model_name": "Xiaomi 18 Pro",
+      "market": "China",
+      "variant_count": 14,
+      "spec_status": "needs_exact_china_source_verification",
+      "source_url": null
+    },
+    {
+      "brand": "Xiaomi",
+      "seller_model_name": "Xiaomi 18 Pro Max",
+      "market": "China",
+      "variant_count": 15,
+      "spec_status": "needs_exact_china_source_verification",
+      "source_url": null
+    },
+    {
+      "brand": "Xiaomi",
+      "seller_model_name": "Xiaomi Civi5 PRO",
+      "market": "China",
+      "variant_count": 1,
+      "spec_status": "needs_exact_china_source_verification",
+      "source_url": null
+    },
+    {
+      "brand": "ZTE",
+      "seller_model_name": "ZTE Changxing 60",
+      "market": "China",
+      "variant_count": 2,
+      "spec_status": "needs_exact_china_source_verification",
+      "source_url": null
+    },
+    {
+      "brand": "ZTE",
+      "seller_model_name": "ZTE Changxing 60 Plus",
+      "market": "China",
+      "variant_count": 2,
+      "spec_status": "needs_exact_china_source_verification",
+      "source_url": null
+    },
+    {
+      "brand": "iQOO",
+      "seller_model_name": "IQOO 15",
+      "market": "China",
+      "variant_count": 5,
+      "spec_status": "needs_exact_china_source_verification",
+      "source_url": null
+    },
+    {
+      "brand": "iQOO",
+      "seller_model_name": "IQOO 15 Ultra",
+      "market": "China",
+      "variant_count": 6,
+      "spec_status": "needs_exact_china_source_verification",
+      "source_url": null
+    },
+    {
+      "brand": "iQOO",
+      "seller_model_name": "IQOO 15T",
+      "market": "China",
+      "variant_count": 3,
+      "spec_status": "needs_exact_china_source_verification",
+      "source_url": null
+    },
+    {
+      "brand": "iQOO",
+      "seller_model_name": "IQOO 16",
+      "market": "China",
+      "variant_count": 11,
+      "spec_status": "needs_exact_china_source_verification",
+      "source_url": null
+    },
+    {
+      "brand": "iQOO",
+      "seller_model_name": "IQOO Neo11",
+      "market": "China",
+      "variant_count": 1,
+      "spec_status": "needs_exact_china_source_verification",
+      "source_url": null
+    },
+    {
+      "brand": "iQOO",
+      "seller_model_name": "IQOO Neo11 Ultra Edition",
+      "market": "China",
+      "variant_count": 9,
+      "spec_status": "needs_exact_china_source_verification",
+      "source_url": null
+    },
+    {
+      "brand": "iQOO",
+      "seller_model_name": "IQOO Z10 Turbo",
+      "market": "China",
+      "variant_count": 1,
+      "spec_status": "needs_exact_china_source_verification",
+      "source_url": null
+    },
+    {
+      "brand": "iQOO",
+      "seller_model_name": "IQOO Z10X",
+      "market": "China",
+      "variant_count": 6,
+      "spec_status": "needs_exact_china_source_verification",
+      "source_url": null
+    },
+    {
+      "brand": "iQOO",
+      "seller_model_name": "IQOO Z11",
+      "market": "China",
+      "variant_count": 10,
+      "spec_status": "needs_exact_china_source_verification",
+      "source_url": null
+    },
+    {
+      "brand": "iQOO",
+      "seller_model_name": "IQOO Z11 Turbo",
+      "market": "China",
+      "variant_count": 10,
+      "spec_status": "needs_exact_china_source_verification",
+      "source_url": null
+    },
+    {
+      "brand": "iQOO",
+      "seller_model_name": "IQOO Z11S",
+      "market": "China",
+      "variant_count": 9,
+      "spec_status": "needs_exact_china_source_verification",
+      "source_url": null
+    },
+    {
+      "brand": "iQOO",
+      "seller_model_name": "IQOO Z11X",
+      "market": "China",
+      "variant_count": 9,
+      "spec_status": "needs_exact_china_source_verification",
+      "source_url": null
+    },
+    {
+      "brand": "iQOO",
+      "seller_model_name": "IQOO Z11i",
+      "market": "China",
+      "variant_count": 9,
+      "spec_status": "needs_exact_china_source_verification",
+      "source_url": null
+    },
+    {
+      "brand": "vivo",
+      "seller_model_name": "vivo S30",
+      "market": "China",
+      "variant_count": 4,
+      "spec_status": "needs_exact_china_source_verification",
+      "source_url": null
+    },
+    {
+      "brand": "vivo",
+      "seller_model_name": "vivo S50",
+      "market": "China",
+      "variant_count": 11,
+      "spec_status": "needs_exact_china_source_verification",
+      "source_url": null
+    },
+    {
+      "brand": "vivo",
+      "seller_model_name": "vivo S50t",
+      "market": "China",
+      "variant_count": 3,
+      "spec_status": "needs_exact_china_source_verification",
+      "source_url": null
+    },
+    {
+      "brand": "vivo",
+      "seller_model_name": "vivo S50t Energy Edition",
+      "market": "China",
+      "variant_count": 6,
+      "spec_status": "needs_exact_china_source_verification",
+      "source_url": null
+    },
+    {
+      "brand": "vivo",
+      "seller_model_name": "vivo S60",
+      "market": "China",
+      "variant_count": 10,
+      "spec_status": "needs_exact_china_source_verification",
+      "source_url": null
+    },
+    {
+      "brand": "vivo",
+      "seller_model_name": "vivo S60 Energy Edition",
+      "market": "China",
+      "variant_count": 9,
+      "spec_status": "needs_exact_china_source_verification",
+      "source_url": null
+    },
+    {
+      "brand": "vivo",
+      "seller_model_name": "vivo S60t",
+      "market": "China",
+      "variant_count": 4,
+      "spec_status": "needs_exact_china_source_verification",
+      "source_url": null
+    },
+    {
+      "brand": "vivo",
+      "seller_model_name": "vivo X Fold5 Fold",
+      "market": "China",
+      "variant_count": 8,
+      "spec_status": "needs_exact_china_source_verification",
+      "source_url": null
+    },
+    {
+      "brand": "vivo",
+      "seller_model_name": "vivo X Fold6 Fold",
+      "market": "China",
+      "variant_count": 13,
+      "spec_status": "needs_exact_china_source_verification",
+      "source_url": null
+    },
+    {
+      "brand": "vivo",
+      "seller_model_name": "vivo X200",
+      "market": "China",
+      "variant_count": 2,
+      "spec_status": "needs_exact_china_source_verification",
+      "source_url": null
+    },
+    {
+      "brand": "vivo",
+      "seller_model_name": "vivo X200 PRO",
+      "market": "China",
+      "variant_count": 4,
+      "spec_status": "needs_exact_china_source_verification",
+      "source_url": null
+    },
+    {
+      "brand": "vivo",
+      "seller_model_name": "vivo X200 PRO mini",
+      "market": "China",
+      "variant_count": 3,
+      "spec_status": "needs_exact_china_source_verification",
+      "source_url": null
+    },
+    {
+      "brand": "vivo",
+      "seller_model_name": "vivo X200 Ultra",
+      "market": "China",
+      "variant_count": 1,
+      "spec_status": "needs_exact_china_source_verification",
+      "source_url": null
+    },
+    {
+      "brand": "vivo",
+      "seller_model_name": "vivo X300",
+      "market": "China",
+      "variant_count": 16,
+      "spec_status": "needs_exact_china_source_verification",
+      "source_url": null
+    },
+    {
+      "brand": "vivo",
+      "seller_model_name": "vivo X300 PRO",
+      "market": "China",
+      "variant_count": 14,
+      "spec_status": "needs_exact_china_source_verification",
+      "source_url": null
+    },
+    {
+      "brand": "vivo",
+      "seller_model_name": "vivo X300 Ultra",
+      "market": "China",
+      "variant_count": 9,
+      "spec_status": "official_china_record_present",
+      "source_url": "https://www.vivo.com.cn/vivo/param/x300ultra",
+      "coverage": "Partial reviewed fields only; not a complete device specification audit."
+    },
+    {
+      "brand": "vivo",
+      "seller_model_name": "vivo X300E",
+      "market": "China",
+      "variant_count": 6,
+      "spec_status": "needs_exact_china_source_verification",
+      "source_url": null
+    },
+    {
+      "brand": "vivo",
+      "seller_model_name": "vivo X300s",
+      "market": "China",
+      "variant_count": 8,
+      "spec_status": "needs_exact_china_source_verification",
+      "source_url": null
+    },
+    {
+      "brand": "vivo",
+      "seller_model_name": "vivo X500",
+      "market": "China",
+      "variant_count": 8,
+      "spec_status": "needs_exact_china_source_verification",
+      "source_url": null
+    },
+    {
+      "brand": "vivo",
+      "seller_model_name": "vivo X500 Pro",
+      "market": "China",
+      "variant_count": 11,
+      "spec_status": "needs_exact_china_source_verification",
+      "source_url": null
+    },
+    {
+      "brand": "vivo",
+      "seller_model_name": "vivo X500 Pro Max",
+      "market": "China",
+      "variant_count": 22,
+      "spec_status": "needs_exact_china_source_verification",
+      "source_url": null
+    },
+    {
+      "brand": "vivo",
+      "seller_model_name": "vivo Y200 GT",
+      "market": "China",
+      "variant_count": 1,
+      "spec_status": "needs_exact_china_source_verification",
+      "source_url": null
+    },
+    {
+      "brand": "vivo",
+      "seller_model_name": "vivo Y300 PRO+",
+      "market": "China",
+      "variant_count": 3,
+      "spec_status": "needs_exact_china_source_verification",
+      "source_url": null
+    },
+    {
+      "brand": "vivo",
+      "seller_model_name": "vivo Y300+",
+      "market": "China",
+      "variant_count": 1,
+      "spec_status": "needs_exact_china_source_verification",
+      "source_url": null
+    },
+    {
+      "brand": "vivo",
+      "seller_model_name": "vivo Y300T",
+      "market": "China",
+      "variant_count": 6,
+      "spec_status": "needs_exact_china_source_verification",
+      "source_url": null
+    },
+    {
+      "brand": "vivo",
+      "seller_model_name": "vivo Y300i",
+      "market": "China",
+      "variant_count": 3,
+      "spec_status": "needs_exact_china_source_verification",
+      "source_url": null
+    },
+    {
+      "brand": "vivo",
+      "seller_model_name": "vivo Y37+",
+      "market": "China",
+      "variant_count": 3,
+      "spec_status": "needs_exact_china_source_verification",
+      "source_url": null
+    },
+    {
+      "brand": "vivo",
+      "seller_model_name": "vivo Y37C 4G",
+      "market": "China",
+      "variant_count": 2,
+      "spec_status": "needs_exact_china_source_verification",
+      "source_url": null
+    },
+    {
+      "brand": "vivo",
+      "seller_model_name": "vivo Y37t",
+      "market": "China",
+      "variant_count": 6,
+      "spec_status": "needs_exact_china_source_verification",
+      "source_url": null
+    },
+    {
+      "brand": "vivo",
+      "seller_model_name": "vivo Y50",
+      "market": "China",
+      "variant_count": 6,
+      "spec_status": "needs_exact_china_source_verification",
+      "source_url": null
+    },
+    {
+      "brand": "vivo",
+      "seller_model_name": "vivo Y500",
+      "market": "China",
+      "variant_count": 2,
+      "spec_status": "needs_exact_china_source_verification",
+      "source_url": null
+    },
+    {
+      "brand": "vivo",
+      "seller_model_name": "vivo Y500 PRO",
+      "market": "China",
+      "variant_count": 4,
+      "spec_status": "needs_exact_china_source_verification",
+      "source_url": null
+    },
+    {
+      "brand": "vivo",
+      "seller_model_name": "vivo Y500S",
+      "market": "China",
+      "variant_count": 13,
+      "spec_status": "needs_exact_china_source_verification",
+      "source_url": null
+    },
+    {
+      "brand": "vivo",
+      "seller_model_name": "vivo Y500S AI Edition",
+      "market": "China",
+      "variant_count": 3,
+      "spec_status": "needs_exact_china_source_verification",
+      "source_url": null
+    },
+    {
+      "brand": "vivo",
+      "seller_model_name": "vivo Y500i",
+      "market": "China",
+      "variant_count": 5,
+      "spec_status": "needs_exact_china_source_verification",
+      "source_url": null
+    },
+    {
+      "brand": "vivo",
+      "seller_model_name": "vivo Y50S",
+      "market": "China",
+      "variant_count": 9,
+      "spec_status": "needs_exact_china_source_verification",
+      "source_url": null
+    },
+    {
+      "brand": "vivo",
+      "seller_model_name": "vivo Y50e",
+      "market": "China",
+      "variant_count": 3,
+      "spec_status": "needs_exact_china_source_verification",
+      "source_url": null
+    },
+    {
+      "brand": "vivo",
+      "seller_model_name": "vivo Y50e AI Edition",
+      "market": "China",
+      "variant_count": 3,
+      "spec_status": "needs_exact_china_source_verification",
+      "source_url": null
+    },
+    {
+      "brand": "vivo",
+      "seller_model_name": "vivo Y50i",
+      "market": "China",
+      "variant_count": 3,
+      "spec_status": "needs_exact_china_source_verification",
+      "source_url": null
+    },
+    {
+      "brand": "vivo",
+      "seller_model_name": "vivo Y6",
+      "market": "China",
+      "variant_count": 3,
+      "spec_status": "needs_exact_china_source_verification",
+      "source_url": null
+    },
+    {
+      "brand": "vivo",
+      "seller_model_name": "vivo Y60",
+      "market": "China",
+      "variant_count": 6,
+      "spec_status": "needs_exact_china_source_verification",
+      "source_url": null
+    },
+    {
+      "brand": "vivo",
+      "seller_model_name": "vivo Y60 AI Edition",
+      "market": "China",
+      "variant_count": 4,
+      "spec_status": "needs_exact_china_source_verification",
+      "source_url": null
+    },
+    {
+      "brand": "vivo",
+      "seller_model_name": "vivo Y600 Pro",
+      "market": "China",
+      "variant_count": 18,
+      "spec_status": "needs_exact_china_source_verification",
+      "source_url": null
+    },
+    {
+      "brand": "vivo",
+      "seller_model_name": "vivo Y600 Pro AI Edition",
+      "market": "China",
+      "variant_count": 7,
+      "spec_status": "needs_exact_china_source_verification",
+      "source_url": null
+    },
+    {
+      "brand": "vivo",
+      "seller_model_name": "vivo Y600 Turbo",
+      "market": "China",
+      "variant_count": 8,
+      "spec_status": "needs_exact_china_source_verification",
+      "source_url": null
+    },
+    {
+      "brand": "vivo",
+      "seller_model_name": "vivo Y600i",
+      "market": "China",
+      "variant_count": 3,
+      "spec_status": "needs_exact_china_source_verification",
+      "source_url": null
+    },
+    {
+      "brand": "vivo",
+      "seller_model_name": "vivo Y600i M Edition",
+      "market": "China",
+      "variant_count": 3,
+      "spec_status": "needs_exact_china_source_verification",
+      "source_url": null
+    },
+    {
+      "brand": "vivo",
+      "seller_model_name": "vivo Y60M",
+      "market": "China",
+      "variant_count": 5,
+      "spec_status": "needs_exact_china_source_verification",
+      "source_url": null
+    },
+    {
+      "brand": "vivo",
+      "seller_model_name": "vivo Y60i",
+      "market": "China",
+      "variant_count": 12,
+      "spec_status": "needs_exact_china_source_verification",
+      "source_url": null
+    },
+    {
+      "brand": "vivo",
+      "seller_model_name": "vivo Y60i AI Edition",
+      "market": "China",
+      "variant_count": 6,
+      "spec_status": "needs_exact_china_source_verification",
+      "source_url": null
+    },
+    {
+      "brand": "vivo",
+      "seller_model_name": "vivo Y6E",
+      "market": "China",
+      "variant_count": 3,
+      "spec_status": "needs_exact_china_source_verification",
+      "source_url": null
+    },
+    {
+      "brand": "vivo",
+      "seller_model_name": "vivo Y6a",
+      "market": "China",
+      "variant_count": 3,
+      "spec_status": "needs_exact_china_source_verification",
+      "source_url": null
+    },
+    {
+      "brand": "vivo",
+      "seller_model_name": "vivo Y6c 4G",
+      "market": "China",
+      "variant_count": 6,
+      "spec_status": "needs_exact_china_source_verification",
+      "source_url": null
+    },
+    {
+      "brand": "vivo",
+      "seller_model_name": "vivo Y6m",
+      "market": "China",
+      "variant_count": 3,
+      "spec_status": "needs_exact_china_source_verification",
+      "source_url": null
+    },
+    {
+      "brand": "vivo",
+      "seller_model_name": "vivo Y6t",
+      "market": "China",
+      "variant_count": 8,
+      "spec_status": "needs_exact_china_source_verification",
+      "source_url": null
+    },
+    {
+      "brand": "vivo",
+      "seller_model_name": "vivo Y6t M Edition",
+      "market": "China",
+      "variant_count": 9,
+      "spec_status": "needs_exact_china_source_verification",
+      "source_url": null
+    }
+  ]
+}

@@ -22,7 +22,7 @@ class SalesTests(unittest.TestCase):
   with tempfile.TemporaryDirectory() as d,patch.dict(os.environ,{'WHATSAPP_VERIFY_TOKEN':'test'}),patch.object(sales_ai,'api',return_value=response):
    result=sales_ai.answer('Find X10 battery?','customer',d+'/test.db')
    self.assertNotIn('4500',result)
-   self.assertIn('verification',result)
+   self.assertIn('verified',result)
  def test_catalog_then_spec_tool_sequence(self):
   tool=lambda name,args,cid:{'type':'function_call','name':name,'arguments':json.dumps(args),'call_id':cid}
   results=[{'output':[tool('search_catalog',{'query':'oppo find x10','category':'phone','max_lkr':0},'cat')]},{'output':[tool('get_chinese_specs',{'model':'OPPO Find X10'},'spec')]},{'output':[{'type':'message','content':[{'type':'output_text','text':'Chinese OPPO Find X10: battery 8000mAh. Preorder, 15 days.'}]}]}]
@@ -43,6 +43,27 @@ class SalesTests(unittest.TestCase):
    self.assertIn('Silver Tone | LKR 379,000',result)
    self.assertIn('Film Green | LKR 383,000',result)
    self.assertIn('delivery: 15 days',result)
+ def test_all_unreviewed_phone_groups_reject_model_memory_specs(self):
+  from pathlib import Path
+  audit=json.loads((Path(__file__).resolve().parent/'phone-spec-audit.json').read_text())
+  fake={'output':[{'type':'message','content':[{'type':'output_text','text':'Snapdragon invented-chip battery 4500mAh'}]}]}
+  with tempfile.TemporaryDirectory() as d,patch.dict(os.environ,{'WHATSAPP_VERIFY_TOKEN':'test'}),patch.object(sales_ai,'api',return_value=fake):
+   for index,row in enumerate(audit['models']):
+    if row['spec_status']=='official_china_record_present':continue
+    # Each iteration is isolated from usage counters; this tests the shared policy, not fact verification.
+    output=sales_ai.answer(row['seller_model_name']+' camera chipset battery specs','check',d+'/'+str(index)+'.db')
+    self.assertNotIn('4500',output)
+    self.assertNotIn('invented-chip',output)
+    self.assertIn('not yet been verified',output)
+ def test_reviewed_fields_are_model_specific(self):
+  self.assertIn('6600 mAh',sales_ai.get_chinese_specs('vivo X300 Ultra')['facts'])
+  self.assertIn('7500 mAh',sales_ai.get_chinese_specs('OPPO Find X9 Pro')['facts'])
+ def test_camera_units_cannot_reuse_charging_numbers(self):
+  call={'type':'function_call','name':'get_chinese_specs','arguments':json.dumps({'model':'OPPO Find X10'}),'call_id':'s'}
+  outputs=[{'output':[call]},{'output':[{'type':'message','content':[{'type':'output_text','text':'Camera 50MP'}]}]}]
+  with tempfile.TemporaryDirectory() as d,patch.dict(os.environ,{'WHATSAPP_VERIFY_TOKEN':'test'}),patch.object(sales_ai,'api',side_effect=outputs):
+   output=sales_ai.answer('camera?','test',d+'/t.db')
+   self.assertNotIn('50MP',output)
  def test_catalog_exact_variant_and_conflict(self):
   r=sales_ai.search_catalog('vivo x300 ultra 12+256','phone')
   self.assertEqual(r['total_matches'],3)
