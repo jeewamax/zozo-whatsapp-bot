@@ -34,6 +34,7 @@ class SalesTests(unittest.TestCase):
   data=sales_ai.search_catalog('OPPO Find X10 12GB 256GB','phone')
   self.assertGreater(data['total_matches'],0)
   self.assertTrue(all('pro' not in p['model'].lower() for p in data['variants']))
+  self.assertTrue(all('x10e' not in p['model'].lower() for p in data['variants']))
  def test_price_table_uses_exact_catalog_rows(self):
   call={'type':'function_call','name':'search_catalog','arguments':json.dumps({'query':'vivo x300 ultra 12gb 256gb','category':'phone','max_lkr':0}),'call_id':'p'}
   results=[{'output':[call]},{'output':[{'type':'message','content':[{'type':'output_text','text':'Choose a colour.'}]}]}]

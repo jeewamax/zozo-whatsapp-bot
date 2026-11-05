@@ -16,7 +16,7 @@ def search_catalog(query='',category='any',max_lkr=0):
   value=re.sub(r'(\d+)g\b',r'\1',value)
   return set(re.findall(r'[a-z]+|[0-9]+',value))
  tokens=normalize(query)
- requested_suffix=tokens & {'pro','ultra','max','plus','mini','lite','fe'}
+ requested_suffix=tokens & {'pro','ultra','max','plus','mini','lite','fe','e','s','t','r'}
  exact_family=bool(re.search(r'\d',query))
  products=[]
  for p in CATALOG['products']:
@@ -25,7 +25,7 @@ def search_catalog(query='',category='any',max_lkr=0):
   # All query tokens must match: never silently substitute a different model/configuration.
   model_tokens=normalize(p['model'])
   if not tokens.issubset(normalize(text)):continue
-  if exact_family and (model_tokens & {'pro','ultra','max','plus','mini','lite','fe'}) != requested_suffix:continue
+  if exact_family and (model_tokens & {'pro','ultra','max','plus','mini','lite','fe','e','s','t','r'}) != requested_suffix:continue
   if max_lkr>0 and max(p['prices_lkr'])>max_lkr:continue
   products.append(p)
  products.sort(key=lambda p:(-max(p['prices_lkr']) if max_lkr else p['model'],p['color']))
@@ -117,6 +117,11 @@ def answer(text,recipient,db_path):
   evidence_numbers={v.replace(",","") for v in re.findall(r'\d[\d,.]*', ' '.join(spec_evidence))}
   if any(v.replace(",","") not in evidence_numbers for v,u in claims):
    output=('Exact Chinese-version specifications need verification. Please share the exact model; our team can confirm: '+CONTACTS)
+  config=re.search(r'\b(\d+)\s*(?:gb|g)\s*[+/ ]*\s*(\d+)\s*(tb|gb|g)\b',text,re.I)
+  if config:
+   ram,storage,unit=config.groups()
+   target=re.compile(r'(?<!\d)'+ram+r'\s*(?:gb|g)?\s*\+\s*'+storage+r'\s*'+('t' if unit.lower()=='tb' else 'g'),re.I)
+   price_variants=[v for v in price_variants if target.search(v['model'])]
   if price_variants:
    # Selling price/configuration associations are formatted by code, never by the model.
    output='\n'.join(line for line in output.split('\n') if not re.search(r'(?i)(LKR|Rs\.?|රු\.?|\d[\d,]*\s*(?:k|ලක්ෂ))',line))
